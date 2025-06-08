@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Skill } from '../types';
-import SkillIcon from './icons/SkillIcon';
-import { useTheme } from '../contexts/ThemeContext';
+import SkillIcon from './icons/SkillIcon.tsx';
+import { useTheme } from '../contexts/ThemeContext.tsx';
 
 interface SkillCardProps {
   skill: Skill;

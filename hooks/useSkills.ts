@@ -28,7 +28,7 @@ export const useSkills = () => {
     // Try to load skills from a public skills.json on initial mount
     setIsLoading(true);
     setError(null);
-    fetch('/skills.json') // Assumes skills.json is in the public root or served at this path
+    fetch('./skills.json') // Assumes skills.json is in the public root or served at this path
       .then(response => {
         if (!response.ok) {
           if (response.status === 404) {

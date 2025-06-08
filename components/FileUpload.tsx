@@ -1,6 +1,6 @@
 
 import React, { ChangeEvent, useRef } from 'react';
-import { useTheme } from '../contexts/ThemeContext';
+import { useTheme } from '../contexts/ThemeContext.tsx';
 
 interface FileUploadProps {
   onFileUpload: (file: File) => void;

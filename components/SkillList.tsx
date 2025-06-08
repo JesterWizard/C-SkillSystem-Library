@@ -1,7 +1,7 @@
 import React from 'react';
 import { Skill } from '../types';
-import SkillCard from './SkillCard';
-import { useTheme } from '../contexts/ThemeContext';
+import SkillCard from './SkillCard.tsx';
+import { useTheme } from '../contexts/ThemeContext.tsx';
 
 interface SkillListProps {
   skills: Skill[];

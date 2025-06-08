@@ -38,7 +38,7 @@ const App: React.FC = () => {
   const actualCount = filteredAndSortedSkills.length;
 
   useEffect(() => {
-    fetch('/config.json')
+    fetch('./config.json')
       .then(response => {
         if (!response.ok) {
           console.warn('config.json not found or failed to load. Using default configuration (showDataManagementButtons: true).');

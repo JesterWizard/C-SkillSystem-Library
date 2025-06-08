@@ -1,7 +1,7 @@
 
 import React, { ChangeEvent } from 'react';
 import { Skill, SortOption, SortDirection } from '../types'; // Added Skill import
-import { useTheme } from '../contexts/ThemeContext';
+import { useTheme } from '../contexts/ThemeContext.tsx';
 
 interface SortOptionsProps {
   sortOption: SortOption;
