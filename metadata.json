@@ -1,0 +1,5 @@
+{
+  "name": "CSV Skill Search Engine",
+  "description": "An application to upload a CSV of skills, parse it, and provide a searchable interface with sorting and theming capabilities.",
+  "requestFramePermissions": []
+}

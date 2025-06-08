@@ -1,0 +1,6074 @@
+[
+  {
+    "id": "skill-0",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Absolve",
+    "description": "Take no damage from terrain or traps",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-1",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Absorb Alternation",
+    "description": "The unit alternates between absorbing HP from magic and melee weapons every turn",
+    "category": "Pre-Battle",
+    "comments": "You only absorb damage up to your current HP"
+  },
+  {
+    "id": "skill-2",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Absorb Magic",
+    "description": "The unit absorbs damage from magic weapons and heals proportionally",
+    "category": "Pre-Battle",
+    "comments": "You only absorb damage up to your current HP"
+  },
+  {
+    "id": "skill-3",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Absorb Melee",
+    "description": "The unit absorbs damage from melee weapons and heals proportionally",
+    "category": "Pre-Battle",
+    "comments": "You only absorb damage up to your current HP"
+  },
+  {
+    "id": "skill-4",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Accost",
+    "description": "Every clash involving this unit can last up to 8 rounds unless someone dies. Skill activation% (Attacker speed + attacker HP) - defender speed",
+    "category": "Standalone",
+    "comments": "For now, I'm forced to stop at 8 rounds"
+  },
+  {
+    "id": "skill-5",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Acidic",
+    "description": "Can use healing items on adjacent enemies to deal fixed damage, halved on bosses",
+    "category": "Pre-Battle",
+    "comments": "To difficult and complicated to make this work. I need to add conditonals for both usability and targeting routines for healing items that clear in time if the user changes their mind. I also need to make the EXP checks and unit kill functions work at the time the item takes effect"
+  },
+  {
+    "id": "skill-6",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Acidic+",
+    "description": "Can use healing items on ranged enemues to deal fixed damage, halved on bosses",
+    "category": "Pre-Battle",
+    "comments": "To difficult and complicated to make this work. I need to add conditonals for both usability and targeting routines for healing items that clear in time if the user changes their mind. I also need to make the EXP checks and unit kill functions work at the time the item takes effect"
+  },
+  {
+    "id": "skill-7",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Acrobat",
+    "description": "All traversable terrain costs 1 movement",
+    "category": "Movement",
+    "comments": ""
+  },
+  {
+    "id": "skill-8",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Adaptable",
+    "description": "If foe initiates combat, unit counters with the best weapon available (in terms of range, weapon advantage, effective bonus, etc.).",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-9",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Adaptive Lunge",
+    "description": "The unit alternates between targetting an enemy's defense or resistance every turn",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-10",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Adaptive Stance",
+    "description": "The unit's defensive stats switch to whichever one is higher when being attacked",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-11",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Adept",
+    "description": "Gain a consecutive attack. (Speed % activation)",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-12",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Admiration",
+    "description": "-2 damage taken if 2 female allies are within 2 tiles",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-13",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Adrenaline Rush",
+    "description": "If the unit is < 25% HP, they can take another action",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-14",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Advantage Chaser",
+    "description": "Unit always doubles when attacking with WTA (Weapon Triangle Advantage)",
+    "category": "Doubling",
+    "comments": ""
+  },
+  {
+    "id": "skill-15",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Aegis",
+    "description": "Nullify a magic attack. (Skill % activation)",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-16",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Aerobatics",
+    "description": "If non-flier allies are deployed, this unit gains +2 MOV",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-17",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Aether",
+    "description": "First strike absorbs HP, second strike negates defenses. (Skill/2 % activation)",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-18",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Aid Refusal",
+    "description": "This unit cannot be targeted by staves",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-19",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Airlock",
+    "description": "On the first turn of the map, set the weather condition to clear",
+    "category": "Turn",
+    "comments": ""
+  },
+  {
+    "id": "skill-20",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Air Raid Attack",
+    "description": "When standing on a tile the enemy cannot enter: Attack +5",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-21",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Air Raid Avoid",
+    "description": "When standing on a tile the enemy cannot enter: Avoid +15",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-22",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Air Raid Crit",
+    "description": "When standing on a tile the enemy cannot enter: Critical +15",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-23",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Air Raid Defense",
+    "description": "When standing on a tile the enemy cannot enter: Defense +5",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-24",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Air Raid Hit",
+    "description": "When standing on a tile the enemy cannot enter: Hit +15",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-25",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Air Raid Resistance",
+    "description": "When standing on a tile the enemy cannot enter: Resistance +5",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-26",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Air Raid Speed",
+    "description": "When standing on a tile the enemy cannot enter: Speed +5",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-27",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Alacrity",
+    "description": "If unit's speed is 9 or more than the target's, counterattack first",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-28",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Alacrity+",
+    "description": "If unit's speed is 5 or more than the target's, counterattack first",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-29",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Amaterasu",
+    "description": "Allies within 2 tiles recover 20% HP each turn.",
+    "category": "HP-Restoration",
+    "comments": ""
+  },
+  {
+    "id": "skill-30",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Amische",
+    "description": "This unit's religion disallows them from using non-Iron weaponry",
+    "category": "Weapon Usability",
+    "comments": ""
+  },
+  {
+    "id": "skill-31",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Analytic",
+    "description": "10 attack if speed is less than opponent's by 4 points or more. If between 1-3 points, then +5 attack.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-32",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Anathema",
+    "description": "-10 Avoid/Dodge to all enemies within 3 tiles.",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-33",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Anchor",
+    "description": "This unit cannot be moved by the actions of other units",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-34",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Anger Point",
+    "description": "Plus 10 ATK for the turn after sustaining a critical hit",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-35",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Anima Prowess",
+    "description": "Anima Prowess: Ranks -> D/C/B/A/S HIT & AVO +5/6/7/8/10 CR.AVO +7/10/13/16/20",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-36",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Antihex",
+    "description": "Disable the devil backfire chance",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-37",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Aptitude",
+    "description": "plus 20 to all growth rates",
+    "category": "Growth",
+    "comments": ""
+  },
+  {
+    "id": "skill-38",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Arcane Blade",
+    "description": "When initiating battle at 1 range: Add 3+(Mag/2) to Hit and Crit.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-39",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Arcgift",
+    "description": "Allows the use of Bows up to rank C",
+    "category": "Weapon Usability",
+    "comments": ""
+  },
+  {
+    "id": "skill-40",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Arcgift Plus",
+    "description": "Allows the use of Bows up to rank A",
+    "category": "Weapon Usability",
+    "comments": ""
+  },
+  {
+    "id": "skill-41",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Ardent Sacrifice",
+    "description": "Restores 10 HP to target, but drops user�s HP by 10",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-42",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Arena Trap",
+    "description": "Prevents foes in a 2 tile radius from moving",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-43",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Arise",
+    "description": "Raise a dead allied unit with 1 HP (can only be revived once and on the chapter they died on)",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-44",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Armor Boost",
+    "description": "Gain +4 ATK/DEF against enemy armored units if within 3 spaces of an allied armored unit",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-45",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Armor March",
+    "description": "At start of turn, if unit is adjacent to an armor ally, unit and adjacent armor allies gain +2 Mov",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-46",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Armsthrift",
+    "description": "Luck % chance to not consume weapon durability",
+    "category": "Rounds",
+    "comments": ""
+  },
+  {
+    "id": "skill-47",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Armsthrift+",
+    "description": "Guaranteed to not consume weapon durability",
+    "category": "Rounds",
+    "comments": ""
+  },
+  {
+    "id": "skill-48",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Assassinate",
+    "description": "When initiating battle at 1 range: +2 Damage, double attacks occur before counter.",
+    "category": "Pre-Battle",
+    "comments": "Renamed to 'Close Combat' as there is a combat art called Assassinate already"
+  },
+  {
+    "id": "skill-49",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Assign Decoy",
+    "description": "Give an ally unit the 'Decoy' status for 1 turn",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-50",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Assign Decoy+",
+    "description": "The unit can assign the \"decoy\" status to any unit",
+    "category": "Menu",
+    "comments": "Changes need to be made to the functions that prevent enemy units from attacking their own allies. Can't be bothered"
+  },
+  {
+    "id": "skill-51",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Assist",
+    "description": "Plus 5 damage dealt on assistance of an allies' combo attack",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-52",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Astra",
+    "description": "5 attacks at half damage. (Skill % activation)",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-53",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Astra Storm",
+    "description": "Attack any enemy unit within 10 spaces with 5 bow attacks at 30% damage",
+    "category": "Combat-Art",
+    "comments": ""
+  },
+  {
+    "id": "skill-54",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Aversa's Night",
+    "description": "If enemy's HP < unit's HP -3 and have allies in 2x2, inflicts ATK/SPD/DEF/RES -3 and inflict Panic.",
+    "category": "Turn",
+    "comments": ""
+  },
+  {
+    "id": "skill-55",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Axe Faith",
+    "description": "Attack % chance to increase hit rate by battle attack",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-56",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Axe Prowess",
+    "description": "Axe Prowess: Ranks -> D/C/B/A/S HIT & AVO +5/6/7/8/10 CR.AVO +7/10/13/16/20",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-57",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Ballistry",
+    "description": "Unit can summon a ballista to ride",
+    "category": "Menu",
+    "comments": "If the unit exits the ballista, they cannot ride it again without having a bow rank"
+  },
+  {
+    "id": "skill-58",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Bandit Bane",
+    "description": "Unit deals effective damage against bandits, pirates and berserkers",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-59",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Bane",
+    "description": "Leave the opponent at 1 HP if the attack would kill. (Skill/2 % activation)",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-60",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Barehanded",
+    "description": "Can attack with no weapon",
+    "category": "Pre-Battle",
+    "comments": "This one is hard, seems to need lots of hooks. backburner for now"
+  },
+  {
+    "id": "skill-61",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Bargain",
+    "description": "Halves prices in shops",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-62",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Barricade",
+    "description": "Damage taken is halved after first being struck (in this battle only)",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-63",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Barricade+",
+    "description": "In combat, damage received equals half the damage of the last strike this battle",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-64",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Battle Range 1",
+    "description": "HP -3 and have allies in 2x2, inflicts[NL]",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-65",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Battle Range 2",
+    "description": "ATK/SPD/DEF/RES -3 and inflict Panic.",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-66",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Battle Range 3",
+    "description": "ATK +5 if no allies within 1 tile",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-67",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Battle Veteran",
+    "description": "Gain +1 damage and +5% Hit per 10 levels unit has.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-68",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Beast Assault",
+    "description": "Reduce the damage received from non-critical attacks by 40%",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-69",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Beginner's Luck",
+    "description": "Grants +20 hit/avoid. -1 every chapter",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-70",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Bide",
+    "description": "Reduce remaining HP to 1 and set attack to double for this battle",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-71",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "BidingBlow",
+    "description": "If the opponent cannot counterattack, this unit doubles",
+    "category": "Doubling",
+    "comments": ""
+  },
+  {
+    "id": "skill-72",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "BlackMagic",
+    "description": "Skill% chance to inflict a random status.",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-73",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Blacksmith",
+    "description": "Restore equipped weapon for 1000 gold if it is under B rank",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-74",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Blacksmith+",
+    "description": "Restore 1 weapon use per turn to the unit's currently equipped weapon",
+    "category": "Turn",
+    "comments": ""
+  },
+  {
+    "id": "skill-75",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Bladegift",
+    "description": "Allows the use of Swords up to rank C",
+    "category": "Weapon Usability",
+    "comments": ""
+  },
+  {
+    "id": "skill-76",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Bladegift+",
+    "description": "Allows the use of Swords up to rank A",
+    "category": "Weapon Usability",
+    "comments": ""
+  },
+  {
+    "id": "skill-77",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Blood Magic",
+    "description": "Gaiden magic uses HP instead of MP",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-78",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "BloodTide",
+    "description": "Atk and Hit +5 to adjacent allies",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-79",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Blossom",
+    "description": "2x growth rates, but 1/2 exp gain",
+    "category": "Growth",
+    "comments": ""
+  },
+  {
+    "id": "skill-80",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Blow Armored",
+    "description": "Gain +5 defense when initiating battle",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-81",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Blow Certain",
+    "description": "Gain +30 hit when initiating battle",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-82",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Blow Chivalry",
+    "description": "Gain +2 attack and defense when the enemy is at full HP and initiating battle",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-83",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Blow Darting",
+    "description": "Gain +5 attack speed when initiating battle",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-84",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Blow Death",
+    "description": "Gain +20 crit when initiating battle",
+    "category": "Pre-Battle",
+    "comments": "Renamed \"Killing Blow\""
+  },
+  {
+    "id": "skill-85",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Blow Duelist's",
+    "description": "Gain +30 avoid when initiating battle",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-86",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Blow Hero's Death",
+    "description": "Gain +6 attack when initiating battle",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-87",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Blow Pragmatic",
+    "description": "Gain +3 attack and +1 defense when the enemy is at full HP and initiating battle",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-88",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Blow Quick Draw",
+    "description": "Gain +4 attack when initiating battle",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-89",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Blow Warding",
+    "description": "Gain +10 defense when initiating battle",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-90",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Blue Flame",
+    "description": "Attack +2. When adjacent to an ally, Attack +4.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-91",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Blue Lion Rule",
+    "description": "Reduce damage as 4% of DEF diff (max 40%)",
+    "category": "Pre-Battle",
+    "comments": "Reduce damage taken by 4% (up to 40%) for each point of defense the enemy has over the skill holder"
+  },
+  {
+    "id": "skill-92",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Bold Fighter",
+    "description": "When attacking, this unit always doubles",
+    "category": "Doubling",
+    "comments": ""
+  },
+  {
+    "id": "skill-93",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Bond",
+    "description": "All allies within 3 tiles recover 10% HP each turn.",
+    "category": "HP-Restoration",
+    "comments": ""
+  },
+  {
+    "id": "skill-94",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Bonus Doubler",
+    "description": "Where the foe's unit stats surpass this unit's, gain the difference",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-95",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Boon",
+    "description": "Cure bad status effects at the beginning of each turn",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-96",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Boost Defense",
+    "description": "Each turn +1 to DEF stat. (Max +6)",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-97",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Boost Luck",
+    "description": "Each turn +1 to LUCK stat. (Max +6)",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-98",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Boost Magic",
+    "description": "Each turn +1 to MAG stat. (Max +6)",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-99",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Boost Movement",
+    "description": "Each turn +1 to MOV stat. (Max +6)",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-100",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Boost Resistance",
+    "description": "Each turn +1 to RES stat. (Max +6)",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-101",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Boost Skill",
+    "description": "Each turn +1 to SKL stat. (Max +6)",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-102",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Boost Spectrum",
+    "description": "Each turn +1 to all stats. (Max +6)",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-103",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Boost Speed",
+    "description": "Each turn +1 to SPD stat. (Max +6)",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-104",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Boost Strength",
+    "description": "Each turn +1 to STR stat. (Max +6)",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-105",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Boundless Vitality",
+    "description": "Restore 20% of the unit's health after every battle",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-106",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Bow Prowess",
+    "description": "Bow Prowess: Ranks -> D/C/B/A/S HIT & AVO +5/6/7/8/10 CR.AVO +7/10/13/16/20",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-107",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Bow Range",
+    "description": "Maximum range of equipped bow is increased by 1",
+    "category": "Range",
+    "comments": ""
+  },
+  {
+    "id": "skill-108",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Brash Assault",
+    "description": "If foe can counter, this unit can double",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-109",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Breaker Anima",
+    "description": "Gain +50 avoid if enemy is using an anima tome",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-110",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Breaker Axe",
+    "description": "Gain +50 avoid if enemy is using a axe",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-111",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Breaker Bow",
+    "description": "Gain +50 avoid if enemy is using a bow",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-112",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Breaker Dark",
+    "description": "Gain +50 avoid if enemy is using a dark tome",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-113",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Breaker Lance",
+    "description": "Gain +50 avoid if enemy is using a lance",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-114",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Breaker Light",
+    "description": "Gain +50 avoid if enemy is using a light tome",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-115",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Breaker Sword",
+    "description": "Gain +50 avoid if enemy is using a sword",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-116",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Breath of Life",
+    "description": "After attacking, allies in 2 tiles heal of 20% max HP.",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-117",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Bushido",
+    "description": "Reduce damage as 4% of AS diff (max 40%). Damage +7",
+    "category": "Pre-Battle",
+    "comments": "Reduce damage taken by 4% (up to 40%) for each point of speed the enemy has over the skill holder"
+  },
+  {
+    "id": "skill-118",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Camaraderie",
+    "description": "Recover 10% HP each turn if there are allies within 2 tiles.",
+    "category": "HP-Restoration",
+    "comments": ""
+  },
+  {
+    "id": "skill-119",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Camouflage",
+    "description": "Terrain avoid bonus x1.5",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-120",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Canter",
+    "description": "Let unit move 2 spaces after an action",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-121",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Canto",
+    "description": "Can move again after certain actions.",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-122",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "CantoPlus",
+    "description": "Can move again after attacking and other actions.",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-123",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Capacity-Half",
+    "description": "Reduce capacity costs of skills by half",
+    "category": "Standalone",
+    "comments": "requires CONFIG_TELLIUS_CAPACITY_SYSTEM label"
+  },
+  {
+    "id": "skill-124",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Capacity-One",
+    "description": "Reduce capacity costs of skills to 1",
+    "category": "Standalone",
+    "comments": "requires CONFIG_TELLIUS_CAPACITY_SYSTEM label"
+  },
+  {
+    "id": "skill-125",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Capture",
+    "description": "Capture an enemy after defeating it with reduced stats",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-126",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Casual",
+    "description": "This unit revives at the end of the chapter",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-127",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Catch Em All",
+    "description": "Grants the user every skill",
+    "category": "Pre-Battle",
+    "comments": "The changes need to be made in SkillList_.s but after 700+ skills it's no longer feasible to attempt. Not going to do it"
+  },
+  {
+    "id": "skill-128",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Catching Up",
+    "description": "If foe doubles unit, unit's damage increases by the amount foe is above the doubling threshold",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-129",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Chaos Style",
+    "description": "AS +3 during combat with a physical weapon against a foe armed with magic or vice versa.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-130",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Charge",
+    "description": "Gain +1 damage for every two squares moved.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-131",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Charge+",
+    "description": "If unit has used up all movement, gain brave effect.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-132",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Charisma",
+    "description": "Grants +10 Hit/Avoid to all allies within three tiles",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-133",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Charm",
+    "description": "Allies within 2 tiles deal +2 damage",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-134",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Chill Defense",
+    "description": "Enemy with the highest DEF suffers DEF-7 until next action",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-135",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Chill Luck",
+    "description": "Enemy with the highest LCK suffers LCK-7 until next action",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-136",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Chill Magic",
+    "description": "Enemy with the highest MAG suffers MAG-7 until next action",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-137",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Chill Power",
+    "description": "Enemy with the highest STR suffers STR-7 until next action",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-138",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Chill Resistance",
+    "description": "Enemy with the highest RES suffers RES-7 until next action",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-139",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Chill Skill",
+    "description": "Enemy with the highest SKL suffers SKL-7 until next action",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-140",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Chill Speed",
+    "description": "Enemy with the highest SPD suffers SPD-7 until next action",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-141",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Chipper",
+    "description": "Gain +50g with every hit on the enemy",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-142",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Chlorophyll",
+    "description": "Double's unit's attack speed if the weather is sunny.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-143",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Clear Body",
+    "description": "This unit is immune to stat reductions",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-144",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Clearance",
+    "description": "Clear this unit' negative status after combat",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-145",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Coinflip",
+    "description": "Flip a coin, if heads move twice, if tails end your turn",
+    "category": "Menu",
+    "comments": "Since unit menu bits are at a premium, I'll need to use a global bit to check the skill is active. If it is then check if the unit has the skill and the global bit is set, and then refresh their movement before undoing the bit."
+  },
+  {
+    "id": "skill-146",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Colossus",
+    "description": "Triples Strength. (Skill % activation)",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-147",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Comatose",
+    "description": "This unit can still attack and move while asleep",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-148",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Concealed Weapon",
+    "description": "Smuggle in your equipped weapon into the arena",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-149",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Contrary",
+    "description": "Inverts the effects of seal skills",
+    "category": "Pre-Battle",
+    "comments": "Changed the skill effect to invert the effects of all debuffs"
+  },
+  {
+    "id": "skill-150",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Corona",
+    "description": "Negate enemy resistance. (Skill% activation)",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-151",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Corrosion",
+    "description": "Decrease durability of enemy's weapon by User's level (Skill/2 % activation)",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-152",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Counter",
+    "description": "Reflect physical damage when attacked at 1-2 range.",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-153",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Counter Magic",
+    "description": "Reflect magic damage when attacked at 1-2 range.",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-154",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Counter Roar",
+    "description": "Reduce damage by 30% from the first attack from the enemy, and 70& for subsequent attacks",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-155",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Counterattack",
+    "description": "Allows the user to counterattack regardless of distance",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-156",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Crit",
+    "description": "plus 15 critical hit rate",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-157",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Crit Axe",
+    "description": "Grants +10 crit when equipping axes",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-158",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Crit B.Mag",
+    "description": "Grants +10 crit when equipping tomes",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-159",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Crit Bow",
+    "description": "Grants +10 crit when equipping bows",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-160",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Crit Lance",
+    "description": "Grants +10 crit when equipping lances",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-161",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Crit Sword",
+    "description": "Grants +10 crit when equipping swords",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-162",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Critical Force",
+    "description": "Base critical hit rate is skill x 1.5",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-163",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Critical Overload",
+    "description": "Gain +1 crit for every 3 points the unit's final hit rate is over 100%",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-164",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Critical Pierce",
+    "description": "Nullify the enemy's crit avoid rate",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-165",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Crusader Ward",
+    "description": "Reduce damage from foe's second ranged attack onward by 80%",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-166",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Cultured",
+    "description": "If unit attacks next to a unit with Nice Thighs, move again. -50 hit against units with Nice Thighs.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-167",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "CursedHeal",
+    "description": "Healing staves damage instead of heal, but cannot kill",
+    "category": "Standalone",
+    "comments": "Need to update the heal amount display to show HP decreasing"
+  },
+  {
+    "id": "skill-168",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Dance",
+    "description": "Refresh an ally unit to let them act again",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-169",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Dance+",
+    "description": "Allow an allied unit within Magic/2 range to move again",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-170",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Dancing Blade",
+    "description": "plus 4 speed and -2 damage if user's con < enemy's con",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-171",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Danger Ranger",
+    "description": "Allows the unit to rescue and drop a unit in the same turn",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-172",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Dark Bargain",
+    "description": "At the end of your turn, sacrifice extra exp to heal by that much",
+    "category": "Turn",
+    "comments": ""
+  },
+  {
+    "id": "skill-173",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Dark Horse",
+    "description": "Increase each unit growth by their current stat",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-174",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Dark Prowess",
+    "description": "Dark Prowess: Ranks -> D/C/B/A/S HIT & AVO +5/6/7/8/10 CR.AVO +7/10/13/16/20",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-175",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Daunt",
+    "description": "-5 Hit and Crit to all enemy units in a 3-tile radius",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-176",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Dazzle",
+    "description": "Opponents cannot counterattack this unit",
+    "category": "Rounds",
+    "comments": ""
+  },
+  {
+    "id": "skill-177",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Deadeye",
+    "description": "Doubles hit rate. Skill% chance to inflict sleep.",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-178",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Deal",
+    "description": "Reduce shop prices by 20%",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-179",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Death Blight",
+    "description": "Inflict the \"Doom\" status on enemies. Usable once per map",
+    "category": "Menu",
+    "comments": "Enemies with the \"Doom\" status die when it wears off"
+  },
+  {
+    "id": "skill-180",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Debilitator",
+    "description": "If this unit deals 0 damage, inflict -4 to all of the enemy's main stats for a turn (misses do not count)",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-181",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Decadon",
+    "description": "Deal a fixed 10 points of damage each attack",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-182",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Defending Patience",
+    "description": "When under attack, avoid +10.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-183",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Defending Pragmatic",
+    "description": "When foe is not at full HP, attack +3 and def/res+1.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-184",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Defending Pursuit",
+    "description": "When under attack, attack speed +2.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-185",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Defending Strong Riposte",
+    "description": "When under attack, damage +3.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-186",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Defense Boost",
+    "description": "DEF +1 per turn up to a maximum of 6 turns",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-187",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Defiant Avoid",
+    "description": "When HP is 25% or lower, gain +30 Avoid",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-188",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Defiant Crit",
+    "description": "plus 30 crit when at 25% HP or less",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-189",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Defiant Defense",
+    "description": "DEF +7 when HP is under 25%",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-190",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Defiant Luck",
+    "description": "LCK +7 when HP is under 25%",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-191",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Defiant Magic",
+    "description": "MAG +7 when HP is under 25%",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-192",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Defiant Resistance",
+    "description": "RES +7 when HP is under 25%",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-193",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Defiant Skill",
+    "description": "SKL +7 when HP is under 25%",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-194",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Defiant Speed",
+    "description": "SPD +7 when HP is under 25%",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-195",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Defiant Strength",
+    "description": "STR +7 when HP is under 25%",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-196",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Demoislle",
+    "description": "Male allies within 2 tiles receive -2 damage",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-197",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Demolition Expert",
+    "description": "The unit can destroy walls and barricades with one attack",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-198",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Desert Tiger",
+    "description": "No movement penalty on sand tiles",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-199",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Desperation",
+    "description": "If HP < 50%, double attacks occur immediately",
+    "category": "Rounds",
+    "comments": ""
+  },
+  {
+    "id": "skill-200",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Despoil",
+    "description": "Obtain a Red Gem after attacking and defeating an enemy. (Luck % activation)",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-201",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Destiny Bond",
+    "description": "If the enemy kills this unit, they die as well",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-202",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Detailed Report",
+    "description": "If unit HP > 50%, ranged foes cannot mov through a 2x2 tile radius of the user",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-203",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Detonate",
+    "description": "Destroy equipped weapon to deal remaining uses as damage",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-204",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Devil's Luck",
+    "description": "Immune to Devil Reversal. Gives unit's Devil Reversal to the enemy. (31-Luck % chance of Devil Reversal).",
+    "category": "Proc",
+    "comments": "The curse only lasts for the duration of that one battle, the enemy unit doesn't carry it afterwards"
+  },
+  {
+    "id": "skill-205",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Devil's Pact",
+    "description": "Immune to Devil Reversal. Curses the enemy with Devil Reversal. (31-Luck % chance of Devil Reversal).",
+    "category": "Proc",
+    "comments": "The curse only lasts for the duration of that one battle, the enemy unit doesn't carry it afterwards"
+  },
+  {
+    "id": "skill-206",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Devil's Whim",
+    "description": "This unit is cursed, but the curse spreads to the enemy as well. (31-Luck % chance of Devil Reversal).",
+    "category": "Proc",
+    "comments": "The curse only lasts for the duration of that one battle, the enemy unit doesn't carry it afterwards"
+  },
+  {
+    "id": "skill-207",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Discipline",
+    "description": "Weapon experience gains are doubled",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-208",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Dismount",
+    "description": "If this unit is a mounted class, they can dismount to an infrantry class",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-209",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Divine Reprieve",
+    "description": "Once per chapter, immediately start next player phase",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-210",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Divinely Inspiring",
+    "description": "Adjacent allies deal +3 damage and receive -1 damage",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-211",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Domain",
+    "description": "Extend reach of movement skills by 2 tiles",
+    "category": "Standalone",
+    "comments": "Reposition and Drawback are a little dodgy with this skill. Might need looking into later"
+  },
+  {
+    "id": "skill-212",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Dominant Arm",
+    "description": "Grant a 50% weapon ATK boost to the user if their equipped weapon belongs to their strongest weapon rank",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-213",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Doppleganger",
+    "description": "Copy the class of an adjacent ally for a turn",
+    "category": "Pre-Battle",
+    "comments": "Needs a complete class list, and will need to change between hacks"
+  },
+  {
+    "id": "skill-214",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Double Lion",
+    "description": "All weapons are treated as Brave",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-215",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Double Up",
+    "description": "Guarantee 2 stat levels ups",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-216",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Down With Arch",
+    "description": "If the hit lands, instantly kill the enemy unit. (Only if name starts with \"Arch\")",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-217",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Dragon Wall",
+    "description": "Reduce damage as 4% of RES diff (max 40%)",
+    "category": "Pre-Battle",
+    "comments": "Reduce damage taken by 4% (up to 40%) for each point of resistance the enemy has over the skill holder"
+  },
+  {
+    "id": "skill-218",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Dragon Warth",
+    "description": "Reduce damage of enemy's first attack by 20% and damage of your own first attack by 20%",
+    "category": "In-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-219",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Dragon Wrath",
+    "description": "When defending, unit can execute a guranteed counterattack if HP > 50%",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-220",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Dragon Fang",
+    "description": "1.5x damage. (Skill% activation)",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-221",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Dragonskin",
+    "description": "Halves damage taken",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-222",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "DrawBack",
+    "description": "Unit moves 1 space away from target ally. Ally moves to unit�s previous space",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-223",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Drive Defense",
+    "description": "Allies within 2 spaces receive +4 to their respective stat",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-224",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Drive Magic",
+    "description": "Allies within 2 spaces receive +4 to their respective stat",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-225",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Drive Resistance",
+    "description": "Allies within 2 spaces receive +4 to their respective stat",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-226",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Drive Speed",
+    "description": "Allies within 2 spaces receive +4 to their respective stat",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-227",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Drive Strength",
+    "description": "Allies within 2 spaces receive +4 to their respective stat",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-228",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Drizzle",
+    "description": "On the first turn of the map, set the weather condition to raining",
+    "category": "Turn",
+    "comments": ""
+  },
+  {
+    "id": "skill-229",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Drought",
+    "description": "On the first turn of the map, set the weather condition to sunny",
+    "category": "Turn",
+    "comments": ""
+  },
+  {
+    "id": "skill-230",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Dual Wield",
+    "description": "Equip a secondary weapon, using half of its stats",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-231",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Dual Wield+",
+    "description": "Equip a secondary weapon, using its effects and half of its stats",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-232",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Duel",
+    "description": "Both units attack until someone wins",
+    "category": "Standalone",
+    "comments": "For now, I'm forced to stop at 8 rounds"
+  },
+  {
+    "id": "skill-233",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Echo",
+    "description": "Attack twice for half damage",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-234",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Eclipse",
+    "description": "Leave opponent with 1 HP. (Skill % activation)",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-235",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Effect Spore",
+    "description": "Physical contact with this unit has a 50% chance of inducing one of poison, silence or sleep on the enemy unit",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-236",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "ElbowRoom",
+    "description": "plus 3 damage on open terrain",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-237",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Element Earth Boost",
+    "description": "Grants +6 Defense if unit's current HP is at least 3 higher than the enemy's.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-238",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Element Fire Boost",
+    "description": "Grants +6 Attack if unit's current HP is at least 3 higher than the enemy's.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-239",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Element Water Boost",
+    "description": "Grants +6 Resistance if unit's current HP is at least 3 higher than the enemy's.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-240",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Element Wind Boost",
+    "description": "Grants +6 Attack Speed if unit's current HP is at least 3 higher than the enemy's.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-241",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Emulate",
+    "description": "Unit copies the enemy's current HP at the start of battle",
+    "category": "In-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-242",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Enrage",
+    "description": "Inflict berserk status. (Skill% activation)",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-243",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Entrepreneur",
+    "description": "Unit moves with the preparation shop attached to them",
+    "category": "Standalone",
+    "comments": "Need to make it work for adjacent allied units"
+  },
+  {
+    "id": "skill-244",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Equalizer",
+    "description": "Forces the enemy and attacker to deal equivalent damage",
+    "category": "Pre-Battle",
+    "comments": "As it requires the modification to be made in BattleDamage.c, the preview window for the battle will not be accurate"
+  },
+  {
+    "id": "skill-245",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Eternal Vanity",
+    "description": "Turn based stat buffs do not deplete for this unit",
+    "category": "Stat Modifier",
+    "comments": "Currently only works for the \"iniative\" series of skills"
+  },
+  {
+    "id": "skill-246",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Even Footed",
+    "description": "Plus 1 move on even numbered turns",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-247",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Even Rhythm",
+    "description": "Plus 10 hit and avoid on even numbered turns",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-248",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Expert's Experience",
+    "description": "Grants +0 hit/avoid. +1 every chapter",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-249",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Expertise",
+    "description": "Reduce damage from critical hits by 50%",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-250",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Explosive Buff",
+    "description": "Single target buff staves also apply their effects to all adjacent allies",
+    "category": "Pre-Battle",
+    "comments": "Currently only works for ExecBarrierStaff."
+  },
+  {
+    "id": "skill-251",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Explosive Healing",
+    "description": "Single target healing staves also apply their effects to all adjacent allies",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-252",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Extrovert",
+    "description": "Doubles the effects of support bonuses for this unit",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-253",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Faerghus Ancenstry",
+    "description": "Weapon damage is doubled, but so is weapon consumption",
+    "category": "In-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-254",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "FailGail",
+    "description": "Move again after attacking but failing to harm an enemy",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-255",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Faire Anima",
+    "description": "Gain +4 damage when equipping an anima tome",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-256",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Faire Axe",
+    "description": "Gain +4 damage when equipping a axe",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-257",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Faire Bow",
+    "description": "Gain +4 damage when equipping a bow",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-258",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Faire Dark",
+    "description": "Gain +4 damage when equipping a dark tome",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-259",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Faire Lance",
+    "description": "Gain +4 damage when equipping a lance",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-260",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Faire Light",
+    "description": "Gain +4 damage when equipping a light tome",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-261",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Faire Sword",
+    "description": "Gain +4 damage when equipping a sword",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-262",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Fairytale Folk",
+    "description": "Plus 2 damage dealt if a male ally and femal ally are within 2 spaces",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-263",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Far Ward",
+    "description": "Enemies from +3 range or greater will always miss this target",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-264",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Fatal Ten",
+    "description": "If unit attacks 10 times during one turn, he wins the Duel",
+    "category": "In-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-265",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Fiery Blood",
+    "description": "plus 4 damage when HP is not at max",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-266",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Flank",
+    "description": "If an ally is on the opposite side of an adjacent target, deal 25% more damage.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-267",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Flare",
+    "description": "Halve enemy resistance. (Skill% activation)",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-268",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Flashing Blade",
+    "description": "If the user's attack speed is higher than the foe, boost critical rate by 15%",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-269",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Flashing Blade+",
+    "description": "If the user's attack speed is higher than the foe, boost critical rate by 25%",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-270",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Flicker",
+    "description": "If at full health and this unit would takes >= 50% from an attack, dodge that attack",
+    "category": "In-Battle",
+    "comments": "It's not perfect, I wanted at the end of BattleDamage.c when the final damage total has been calculated so every single skill that could affect damage would be taken into account, but I couldn't be assed to make it work so I settled for BattleCalcReal. So at least it will display in the forecast menu"
+  },
+  {
+    "id": "skill-271",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Flier Formation",
+    "description": "Flier allies provide +3 MOV for this unit",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-272",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Flier Guidance",
+    "description": "Provide +3 MOV to flier allies",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-273",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Fluffy",
+    "description": "Halve damage taken by melee attacks, double damage at range",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-274",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Flurry",
+    "description": "For each time the unit exceeds the doubling threshold, +1 attack round",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-275",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Focus",
+    "description": "plus 10 Critical if there are no allies within 3 tiles",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-276",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Forager",
+    "description": "Recover 20% HP each turn if on a Plain, Forest or Mountain.",
+    "category": "HP-Restoration",
+    "comments": ""
+  },
+  {
+    "id": "skill-277",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Forcefield",
+    "description": "If this unit is at full HP and would take >= 50% damage from an attack, dodge the attack",
+    "category": "In-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-278",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Foreign Princess",
+    "description": "Foreign army units take -2 damage and deal +2 more",
+    "category": "Pre-Battle",
+    "comments": "This skill currently only has an effect in the link arena, fuck that. My idea is to make it check that the current unit is a female and then apply the effects to allied units in a 3x3 range?"
+  },
+  {
+    "id": "skill-279",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Foresight",
+    "description": "Avoid the damage from enemy Critical Hits and Skill Activations.",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-280",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Form Shift",
+    "description": "User can transform regardless of transformation gauge. Transformation gauge does not go down",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-281",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Fortify Armor",
+    "description": "Grants allied armored allies in a 2 tile range +6 ATK/SPD at the start of each turn",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-282",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Fortifying Staff",
+    "description": "HP% chance to boost DEF/RES by 5 for a healed ally for a turn",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-283",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Fortress Defense",
+    "description": "STR/MAG -3, DEF +5",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-284",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Fortress Resistance",
+    "description": "STR/MAG -3, RES +5",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-285",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Fortune",
+    "description": "This unit cannot be crit",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-286",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Frantic Swing",
+    "description": "Add +50 crit if hit rate is 50 or less",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-287",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Freelancer",
+    "description": "Gain +5 to a stat for each weapon type the unit uses. Sword = SPD, Lance = SKL, Axe = STR, Bow = LCK",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-288",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Frenzy",
+    "description": "For every 4 damage taken, +1 to damage dealt.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-289",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Full Metal Body",
+    "description": "This unit is immune to all the seal skills.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-290",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Fury",
+    "description": "Gain +2 Atk/Spd/Def/Res. Unit takes 6 damage after combat.",
+    "category": "Post-Battle",
+    "comments": "Adjusted to boost all stats by 3"
+  },
+  {
+    "id": "skill-291",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Fury+",
+    "description": "All stats +4, -8 HP after combat",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-292",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Gale Wings",
+    "description": "When the unit is the defender while their HP is 100%, attack first",
+    "category": "In-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-293",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Galeforce",
+    "description": "Move again after attacking and defeating an enemy",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-294",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Gambit",
+    "description": "Reduce damage from received melee critical attacks by 50%",
+    "category": "In-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-295",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Gamble",
+    "description": "A reckless attack with halved hit but doubled crit",
+    "category": "Menu",
+    "comments": "Made into a combat art"
+  },
+  {
+    "id": "skill-296",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Gentilhomme",
+    "description": "Female allies within 2 tiles receive -2 damage",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-297",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Gentle Flower",
+    "description": "Allies within 2 tiles restore 1.5x as much HP from healing items",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-298",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Geomancy",
+    "description": "Produce different effects based on the terrain the unit is standing on",
+    "category": "Menu",
+    "comments": "Currently doesn't include magic animations in battle but would be nice to have. I'd need to use gActionData.unk08 = SID_Geomany as a condition to check"
+  },
+  {
+    "id": "skill-299",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Glacies",
+    "description": "Add unit's Resistance to damage dealt. (Skill % activation)",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-300",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Goddess Dance",
+    "description": "When used, all adjacent allied units can move again",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-301",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Gold Digger",
+    "description": "Gain 100g after every successful kill",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-302",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Good as Gold",
+    "description": "This unit is immune to harmful status conditions",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-303",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Good Listener",
+    "description": "Units gains 10 EXP when visiting a town/village for the first time",
+    "category": "Standalone",
+    "comments": "Has some issues with UI backgrounds not redisplaying until BG1 is refreshed, which also affects the level up screen"
+  },
+  {
+    "id": "skill-304",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "there's currently no way to prevent units from visiting the same house over and over again to gain exp other than setting a flag too make it only visitable once (which arguably should be done),No,,",
+    "description": "",
+    "category": "",
+    "comments": ""
+  },
+  {
+    "id": "skill-305",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Goody Basket",
+    "description": "Restore a LCK % amount of max HP each turn",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-306",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Gorilla Tactics",
+    "description": "If moving, after attacking (but not defeating) an enemy, move to the unit's previous space",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-307",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Graceful Wielder",
+    "description": "Weapon weight is reduced by 1 for each respective weapon rank above E",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-308",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Gracegift",
+    "description": "Allows the use of Staves up to rank C",
+    "category": "Weapon Usability",
+    "comments": ""
+  },
+  {
+    "id": "skill-309",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Gracegift+",
+    "description": "Allows the use of Staves up to rank A",
+    "category": "Weapon Usability",
+    "comments": ""
+  },
+  {
+    "id": "skill-310",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Grassy Surge",
+    "description": "Creates a grass tile under the user at the start of the map, as long as they aren't standing on a village/shop etc",
+    "category": "Turn",
+    "comments": "A way to make this work would be to treat it as a trap, but I have no idea how or where to pull the necessary graphic."
+  },
+  {
+    "id": "skill-311",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Grazing Blow",
+    "description": "Missed attacks by this unit deal half damage",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-312",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Great Shield",
+    "description": "Negate all damage. (Defense % activation)",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-313",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Gridmaster",
+    "description": "Movement skills do not end your action",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-314",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Grim Reaper",
+    "description": "Automatically defeat an enemy, but reduce your max HP by 1. Boss class enemies reduce by 5",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-315",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Grisly Wound",
+    "description": "Deals damage equal to 20% of the enemy's max HP after every battle",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-316",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Guard Bearing",
+    "description": "If attacked, reduce enemy's first attack's damage by 30%",
+    "category": "In-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-317",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Guardian",
+    "description": "If unit is attacked, swap places with an adjacent ally with higher HP",
+    "category": "Pre-Battle",
+    "comments": "It's a little dodgy, if animations are on then only the health bars swap places in time (it's purely a cosmetic issue though)"
+  },
+  {
+    "id": "skill-318",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Guts",
+    "description": "plus 5 Str while under any status condition (Includes dancer rings)",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-319",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Hackgift",
+    "description": "Allows the use of Axes up to rank C",
+    "category": "Weapon Usability",
+    "comments": ""
+  },
+  {
+    "id": "skill-320",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Hackgift+",
+    "description": "Allows the use of Axes up to rank A",
+    "category": "Weapon Usability",
+    "comments": ""
+  },
+  {
+    "id": "skill-321",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Half MP",
+    "description": "Gaiden magic costs 1/2 as much MP",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-322",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Half Shift",
+    "description": "User can transform regardless of transformation gauge, but with halved stat boosts",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-323",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Hawkeye",
+    "description": "User will always hit the enemy",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-324",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Haze Hunter",
+    "description": "Give this unit +5 vision range in fog",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-325",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Healing Focus",
+    "description": "Unit recover 50% HP",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-326",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Heavy Blade+",
+    "description": "If unit's attack is higher than the foe, boost critical rate by 25%",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-327",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Heavy Blade",
+    "description": "plus 4 Damage/-2 Attack Speed when unit�s Con. is bigger than the enemy.",
+    "category": "Pre-Battle",
+    "comments": "Effect changed to \"if unit's attack is higher than the foe, +15% crit\"."
+  },
+  {
+    "id": "skill-328",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Heavy Metal",
+    "description": "Boost CON by +5",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-329",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Heavy Strikes",
+    "description": "Adds weapon weight to critical chance",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-330",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Hedge Fund",
+    "description": "Increase total gold by 10% at the end of the map",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-331",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Hero",
+    "description": "plus 30% skill activation rate when HP is below 50%",
+    "category": "Activation Rate",
+    "comments": ""
+  },
+  {
+    "id": "skill-332",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Heroics",
+    "description": "This unit can rescue allies as a free action",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-333",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Hex",
+    "description": "-15 avoid to all adjacent enemies",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-334",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Hide",
+    "description": "Prevent enemy units from attacking this unit for 1 turn",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-335",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "High Ground",
+    "description": "Maximum range of all tomes and bows increased by 2 when on specified terrain",
+    "category": "Range",
+    "comments": ""
+  },
+  {
+    "id": "skill-336",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Hoarde's Bane",
+    "description": "At the end of your turn, consume a vulnerary from the supply if below full health",
+    "category": "Turn",
+    "comments": ""
+  },
+  {
+    "id": "skill-337",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Hold Out",
+    "description": "If unit had 30% HP or more at start of combat, unit always survives combat with at least 1 HP.",
+    "category": "In-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-338",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Holy Aura",
+    "description": "Gain +1 damage, +5% hit, +5% avoid, +5% crit when using light",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-339",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Hone Armor",
+    "description": "Grants allied armored allies in a 2 tile range +6 ATK/SPD at the start of each turn",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-340",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Hone Cavalry",
+    "description": "Grants allied horse riders in a 2 tile range +6 ATK/SPD at the start of each turn",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-341",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Hone Flier",
+    "description": "Grants allied fliers in a 2 tile range +6 ATK/SPD at the start of each turn",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-342",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Hone Chaos",
+    "description": "At the start of your turn give adjacent allies a random +4 buff to a given stat",
+    "category": "Buff",
+    "comments": "It's only random for the turn, not the unit"
+  },
+  {
+    "id": "skill-343",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Hone Defense",
+    "description": "At the start of your turn, give adjacent allies up to +3 the relevant stat",
+    "category": "Buff",
+    "comments": "This has been changed to a 2x2 square, +4 stat"
+  },
+  {
+    "id": "skill-344",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Hone Luck",
+    "description": "At the start of your turn, give adjacent allies up to +3 the relevant stat",
+    "category": "Buff",
+    "comments": "This has been changed to a 2x2 square, +4 stat"
+  },
+  {
+    "id": "skill-345",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Hone Magic",
+    "description": "At the start of your turn, give adjacent allies up to +3 the relevant stat",
+    "category": "Buff",
+    "comments": "This has been changed to a 2x2 square, +4 stat"
+  },
+  {
+    "id": "skill-346",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Hone Movement",
+    "description": "At the start of your turn, give adjacent allies up to +3 the relevant stat",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-347",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Hone Resistance",
+    "description": "At the start of your turn, give adjacent allies up to +3 the relevant stat",
+    "category": "Buff",
+    "comments": "This has been changed to a 2x2 square, +4 stat"
+  },
+  {
+    "id": "skill-348",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Hone Skill",
+    "description": "At the start of your turn, give adjacent allies up to +3 the relevant stat",
+    "category": "Buff",
+    "comments": "This has been changed to a 2x2 square, +4 stat"
+  },
+  {
+    "id": "skill-349",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Hone Speed",
+    "description": "At the start of your turn, give adjacent allies up to +3 the relevant stat",
+    "category": "Buff",
+    "comments": "This has been changed to a 2x2 square, +4 stat"
+  },
+  {
+    "id": "skill-350",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Hone Strength",
+    "description": "At the start of your turn, give adjacent allies up to +3 the relevant stat",
+    "category": "Buff",
+    "comments": "This has been changed to a 2x2 square, +4 stat"
+  },
+  {
+    "id": "skill-351",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Horseguard",
+    "description": "Gain +4 DEF against enemy horse riders if within 3 spaces of an ally horse rider",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-352",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Huge Power",
+    "description": "Boost this unit's attack/magic stat by 50% when at full health",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-353",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Huge Power+",
+    "description": "Boost this unit's attack/magic stat by 50%",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-354",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Hyper Cutter",
+    "description": "This unit is immune to ATK stat reductions",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-355",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Hyper Focus",
+    "description": "Gain +1% has for every battle the unit has in this chapter",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-356",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Identity Problems",
+    "description": "This unit can't decide on a name or face",
+    "category": "Mug loading",
+    "comments": ""
+  },
+  {
+    "id": "skill-357",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Ignis",
+    "description": "Add Def/2 and Res/2 to damage dealt. (Skill % activation)",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-358",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Imbue",
+    "description": "Recover HP equal to strength at the start of each turn.",
+    "category": "HP-Restoration",
+    "comments": ""
+  },
+  {
+    "id": "skill-359",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Immovable Object",
+    "description": "Unit takes damage -50%, but sets unit and foe�s AVO to 0",
+    "category": "In-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-360",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Impale",
+    "description": "Deal 4x damage. (Skill % activation)",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-361",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Indoor Fighter",
+    "description": "plus 10 Hit and Avo when fighting indoors",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-362",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Indoor March",
+    "description": "At start of turn, if unit is on indoor terrain, unit gains +2 Mov.",
+    "category": "Turn",
+    "comments": ""
+  },
+  {
+    "id": "skill-363",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Inevitable End",
+    "description": "Enemy units accumulate status reduction effects",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-364",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Infiltrator",
+    "description": "If within 2 spaces of two or more enemies, gain +3 damage and +15% Hit",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-365",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Infinity Edge",
+    "description": "Critical attacks deal x4 damage",
+    "category": "In-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-366",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Init Calm",
+    "description": "Begin the chapter with +7 RES, lose after the initial turn",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-367",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Init Clever",
+    "description": "Begin the chapter with +7 MAG, lose after the initial turn",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-368",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Init Deft",
+    "description": "Begin the chapter with +7 SKL, lose after the initial turn",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-369",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Init Lucky",
+    "description": "Begin the chapter with +7 LUCK, lose after the initial turn",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-370",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Init Nimble",
+    "description": "Begin the chapter with +7 MOV, lose after the initial turn",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-371",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Init Quick",
+    "description": "Begin the chapter with +7 SPD, lose after the initial turn",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-372",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Init Spectrum",
+    "description": "Begin the chapter with +7 in all stats, lose after the initial turn",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-373",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Init Strong",
+    "description": "Begin the chapter with +7 STR, lose after the initial turn",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-374",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Init Sturdy",
+    "description": "Begin the chapter with +7 DEF, lose after the initial turn",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-375",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Insight",
+    "description": "plus 20 to hit rate",
+    "category": "Pre-Battle",
+    "comments": "Renamed to 'Watchful Eye'"
+  },
+  {
+    "id": "skill-376",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Insomnia",
+    "description": "This unit is immune to the sleep status effect",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-377",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Inspiration",
+    "description": "Allies within 2 tiles deal +2 damage and receive -2 damage",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-378",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Intimidate",
+    "description": "-10 Avoid to all enemies within 2 tiles",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-379",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Iron Dome",
+    "description": "Take 50% less damage, but set avoid to 0",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-380",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Item Lore",
+    "description": "Double the effects of healing items",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-381",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Item Lore+",
+    "description": "Doubles the effects of all items",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-382",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Kamikaze",
+    "description": "Deal 10 HP damage to all adjacent units in exchange for killing this unit",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-383",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Keen Fighter",
+    "description": "If the enemy can double, unit takes 75% normal damage",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-384",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Keep Up",
+    "description": "At start of turn, if unit is within 3 spaces of an ally with Canto or Canto+, unit gains +2 Mov",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-385",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Kill Streak",
+    "description": "Gain +1% crit for every battle the unit wins in this chapter",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-386",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Killing Machine",
+    "description": "Total critical hit rate is doubled",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-387",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Knack Defense",
+    "description": "Increase unit's DEF growth by 10%",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-388",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Knack Health",
+    "description": "Increase unit's HP growth by 10%",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-389",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Knack Luck",
+    "description": "Increase unit's LCK growth by 10%",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-390",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Knack Magic",
+    "description": "Increase unit's MAG growth by 10%",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-391",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Knack Resistance",
+    "description": "Increase unit's RES growth by 10%",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-392",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Knack Skill",
+    "description": "Increase unit's SKL growth by 10%",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-393",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Knack Speed",
+    "description": "Increase unit's SPD growth by 10%",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-394",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Knack Strength",
+    "description": "Increase unit's STR growth by 10%",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-395",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Knight Aspirant",
+    "description": "When above 75% health, +2 damage, +15% avoid.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-396",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Lady Blade",
+    "description": "If unit is female, double weapon might",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-397",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Lance Prowess",
+    "description": "Lance Prowess: Ranks -> D/C/B/A/S",
+    "category": "",
+    "comments": ""
+  },
+  {
+    "id": "skill-398",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Last Stand",
+    "description": "This unit gains a brave effect at 1 HP",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-399",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Last Word",
+    "description": "When doubled, this unit also doubles",
+    "category": "Doubling",
+    "comments": ""
+  },
+  {
+    "id": "skill-400",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Laws of Sacae",
+    "description": "If attacked with 2+ allies in 2x2, ATK/SPD/DEF/RES +4.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-401",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Lead By Example",
+    "description": "On a successful kill, all allied adjacent units can move again if they moved this turn (once per turn).",
+    "category": "In-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-402",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Lethality",
+    "description": "Instantly kill opponent. (Skill/2 % activation)",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-403",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Lethality+",
+    "description": "Always kill an enemy when attacking",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-404",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Life And Death",
+    "description": "plus 10 damage to both sides",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-405",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Life Font",
+    "description": "When standing on terrain that heals you while at max HP, temporarily boost HP by that amount",
+    "category": "Turn",
+    "comments": "So if on a fort that heals 30%, you gain 30% max hp for that map"
+  },
+  {
+    "id": "skill-406",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Lifetaker",
+    "description": "Restore up to 25% HP after attacking and defeating an enemy.",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-407",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Light And Dark",
+    "description": "Atk/Spd/Def/Res-5 on foe, neutralizes unit's penalties and foe's bonuses in battle",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-408",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Light Rune",
+    "description": "Unit can deploy a light rune to an adjacent space",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-409",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Lightning Rod",
+    "description": "Only units with this skill can be targeted by enemy siege tomes (if this unit is in range)",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-410",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Light Prowess",
+    "description": "Light Prowess: Ranks -> D/C/B/A/S",
+    "category": "",
+    "comments": ""
+  },
+  {
+    "id": "skill-411",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Light Weight",
+    "description": "When holding three or less items, attack speed +3",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-412",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Lily's Poise",
+    "description": "Adjacent allies deal +1 damage and receive -3 damage",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-413",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Limit Break",
+    "description": "After 5 hits, next attack deals double damage with 100% accuracy",
+    "category": "In-Battle",
+    "comments": "It's unfortunate that the name is similar to two other skills I made"
+  },
+  {
+    "id": "skill-414",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Limit Breaker",
+    "description": "Sets stat caps for every stat to go +5 higher",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-415",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Limit Breaker+",
+    "description": "Sets stat caps for every stat to go +10 higher",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-416",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Lion Flame",
+    "description": "Grants CRIT+15%, ATK+4 in melee, but cause CRIT-100%, ATK-3 in range",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-417",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Liquid Ooze",
+    "description": "Attackers trying to gain HP from attacking this unit lose as much instead",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-418",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "LiveToServe",
+    "description": "When healing an ally, also heals self",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-419",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Locktouch",
+    "description": "Can open locks without keys or picks",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-420",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Lodestar Rush",
+    "description": "Launch 7 consecutive attacks at 30% damage at an adjacent foe",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-421",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Loyalty",
+    "description": "When within 2 spaces of a Lord, -3 damage taken, +15% hit.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-422",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Luck Boost",
+    "description": "LCK +1 per turn up to a maximum of 6 turns",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-423",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Lucky Seven",
+    "description": "plus 20 hit and avoid until the 8th turn",
+    "category": "Pre-Battle",
+    "comments": "Effect has changed to \"Apply a random fresh +7 boost each turn\""
+  },
+  {
+    "id": "skill-424",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Ludopathy",
+    "description": "Double gambling bets and wins",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-425",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Lull Defense",
+    "description": "Negate the effects of a rally for the given stat",
+    "category": "Stat Modifier",
+    "comments": "Effect has changed to \"Negates the application of DEF rallies in a 3 tile range\""
+  },
+  {
+    "id": "skill-426",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Lull Luck",
+    "description": "Negate the effects of a rally for the given stat",
+    "category": "Stat Modifier",
+    "comments": "Effect has changed to \"Negates the application of LCK rallies in a 3 tile range\""
+  },
+  {
+    "id": "skill-427",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Lull Magic",
+    "description": "Negate the effects of a rally for the given stat",
+    "category": "Stat Modifier",
+    "comments": "Effect has changed to \"Negates the application of MAG rallies in a 3 tile range\""
+  },
+  {
+    "id": "skill-428",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Lull Movement",
+    "description": "Negate the effects of a rally for the given stat",
+    "category": "Stat Modifier",
+    "comments": "Effect has changed to \"Negates the application of MOV rallies in a 3 tile range\""
+  },
+  {
+    "id": "skill-429",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Lull Resistance",
+    "description": "Negate the effects of a rally for the given stat",
+    "category": "Stat Modifier",
+    "comments": "Effect has changed to \"Negates the application of RES rallies in a 3 tile range\""
+  },
+  {
+    "id": "skill-430",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Lull Skill",
+    "description": "Negate the effects of a rally for the given stat",
+    "category": "Stat Modifier",
+    "comments": "Effect has changed to \"Negates the application of SKL rallies in a 3 tile range\""
+  },
+  {
+    "id": "skill-431",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Lull Spectrum",
+    "description": "Negate the effects of a rally for the all stats",
+    "category": "Stat Modifier",
+    "comments": "Effect has changed to \"Negates the application of ALL rallies in a 3 tile range\""
+  },
+  {
+    "id": "skill-432",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Lull Speed",
+    "description": "Negate the effects of a rally for the given stat",
+    "category": "Stat Modifier",
+    "comments": "Effect has changed to \"Negates the application of SPD rallies in a 3 tile range\""
+  },
+  {
+    "id": "skill-433",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Lull Strength",
+    "description": "Negate the effects of a rally for the given stat",
+    "category": "Stat Modifier",
+    "comments": "Effect has changed to \"Negates the application of STR rallies in a 3 tile range\""
+  },
+  {
+    "id": "skill-434",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Lumina",
+    "description": "Allows the user to use light magic up to rank C",
+    "category": "Weapon Usability",
+    "comments": ""
+  },
+  {
+    "id": "skill-435",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Lumina+",
+    "description": "Allows the use of Light Magic up to rank A",
+    "category": "Weapon Usability",
+    "comments": ""
+  },
+  {
+    "id": "skill-436",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Luna",
+    "description": "Negates enemy defenses. (Skill % activation)",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-437",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Luna Attack",
+    "description": "Grants a real damage boost of 25% of enemy's DEF",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-438",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Lunar Brace Skill",
+    "description": "When attacking, ignore 25% of enemy defense",
+    "category": "Pre-Battle",
+    "comments": "Renamed to LunarBrace"
+  },
+  {
+    "id": "skill-439",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Lunge",
+    "description": "Swap places with the opponent after combat. (No effect if Move is --)",
+    "category": "Post-Battle",
+    "comments": "Turned into a post action skill with a choice dialogue box"
+  },
+  {
+    "id": "skill-440",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Mage Slayer",
+    "description": "Gain +2 damage and +10% crit when facing magical enemies.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-441",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Magic Boost",
+    "description": "MAG +1 per turn up to a maximum of 6 turns",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-442",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Magic Bounce",
+    "description": "Reflects negative status conditions sustained in battle to the enemy",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-443",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Magic Eye",
+    "description": "The user will not lose hit rate when attacking from range",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-444",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Magic Gambit",
+    "description": "Reduce damage from received ranged critical attacks by 50%",
+    "category": "In-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-445",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Magic Seal",
+    "description": "Block magic from being used in a 10 tile radius of the user",
+    "category": "Standalone",
+    "comments": "Will require a red hue change to fog tileset at some point"
+  },
+  {
+    "id": "skill-446",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Magick Frenzy",
+    "description": "Unit launches a melee attack after a magic cast",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-447",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Make a Killing",
+    "description": "LCK % chance to gain 500g on killing a foe",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-448",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Malefic Aura",
+    "description": "Enemies within 2 tiles receive +2 magic damage",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-449",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Mantle",
+    "description": "Block damage from all attacks except specified weapons",
+    "category": "Pre-Battle",
+    "comments": "Currently set to just allow an Iron Axe. Change according to your needs"
+  },
+  {
+    "id": "skill-450",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Mark of the Beast",
+    "description": "Boost stats of monster classes by +3 with a 3 tile range",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-451",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Melee Maniac",
+    "description": "Inflict double damage at 1 range, but take double damage otherwise",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-452",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Mend Arms",
+    "description": "Restore every weapon the unit can use by 1 when defeating a full HP enemy in one hit",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-453",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Mentorship",
+    "description": "Grants 1.2x EXP multiplier to this unit and adjacent allies",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-454",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Merciless",
+    "description": "Guranteed critical hit against poisoned foes",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-455",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Mercurious",
+    "description": "25% chance of doubling level up gains",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-456",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Mercy",
+    "description": "Enemies are left with at least 1 HP",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-457",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Mercy+",
+    "description": "Unit cannot kill enemies under any circumstances",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-458",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Mimic",
+    "description": "Attack with the same weapon as the enemy",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-459",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Mimicry",
+    "description": "If targeted by a rally, bounce the rally back to the caster",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-460",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Mine",
+    "description": "Unit can deploy a mine to an adjacent space",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-461",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Minus",
+    "description": "plus 4 to all stats for adjacent units with the 'Plus' skill",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-462",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Miracle",
+    "description": "Survive a lethal attack if HP > 50%.",
+    "category": "Proc",
+    "comments": "Mokha calls it \"Inori\""
+  },
+  {
+    "id": "skill-463",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Momentum",
+    "description": "Each follow-up attack increases CRIT +10%",
+    "category": "In-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-464",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Moody",
+    "description": "Randomly boost one stat by 8 and lower another by 4 each turn",
+    "category": "Turn",
+    "comments": ""
+  },
+  {
+    "id": "skill-465",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Moonbow",
+    "description": "Enemy Def/Res is reduced by 25%. Charge: 2",
+    "category": "Proc",
+    "comments": "Removed the charges. We're not wasting suspend RAM on that."
+  },
+  {
+    "id": "skill-466",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "because of the nature of the skill",
+    "description": "I have to add on the defender's defense to the skill holder's attack instead of just reducing the defense value,Yes,,",
+    "category": "",
+    "comments": ""
+  },
+  {
+    "id": "skill-467",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Moonlight",
+    "description": "Cannot double but opponent cannot counterattack",
+    "category": "Doubling",
+    "comments": ""
+  },
+  {
+    "id": "skill-468",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "More Fo rMe",
+    "description": "If not in range of an ally to rally, unit can apply the rally to themselves",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-469",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Mountain Climber",
+    "description": "Allows the unit to move on mountainous tiles",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-470",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Mountain Climber+",
+    "description": "Allows the unit to move on mountainous tiles with no penalty",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-471",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Moutainman",
+    "description": "AVO bonuses from terrain also become HIT bonuses",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-472",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "MP Channeling",
+    "description": "This unit gain +20 MP per turn instead of + 10",
+    "category": "Turn",
+    "comments": ""
+  },
+  {
+    "id": "skill-473",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Multiscale",
+    "description": "Halve damage from the first attack if the skill holder is at full HP",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-474",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Mystic Boost",
+    "description": "Disables foe's skills as \"calculate on lower def/res for damage\". Restores 6 HP after combat",
+    "category": "Proc/Post-Battle",
+    "comments": "The skill holder disables any enemy skills that target their lower defensive stat"
+  },
+  {
+    "id": "skill-475",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Natural Cover",
+    "description": "-3 damage taken when on terrain with effects.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-476",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Nature Rush",
+    "description": "At start of turn, if unit is on natural terrain, unit gains +2 Mov.",
+    "category": "Turn",
+    "comments": ""
+  },
+  {
+    "id": "skill-477",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Necro Copy",
+    "description": "Upon killing an enemy, optionally assume their class, stats and skills",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-478",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Nice Thighs",
+    "description": "Doesn't do anything",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-479",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Night Tide",
+    "description": "Def and Res +5 to adjacent allies",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-480",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Nihil",
+    "description": "Cancel's the opponent's skills in combat",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-481",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "No Guard",
+    "description": "Both sides have a 100% hit rate",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-482",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "No Guard+",
+    "description": "Unit always has 100% accuracy",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-483",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Nonconforming",
+    "description": "Inverts the effects of the weapon triangle",
+    "category": "WTA",
+    "comments": ""
+  },
+  {
+    "id": "skill-484",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Nullify",
+    "description": "Unit is protected from all effective attacks",
+    "category": "Effectiveness",
+    "comments": ""
+  },
+  {
+    "id": "skill-485",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Oath Defense",
+    "description": "At the start of your turn, gain up to +4 the relevant stat if adjacent to an ally",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-486",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Oath Luck",
+    "description": "At the start of your turn, gain up to +4 the relevant stat if adjacent to an ally",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-487",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Oath Magic",
+    "description": "At the start of your turn, gain up to +4 the relevant stat if adjacent to an ally",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-488",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Oath Movement",
+    "description": "At the start of your turn, gain up to +4 the relevant stat if adjacent to an ally",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-489",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Oath Resistance",
+    "description": "At the start of your turn, gain up to +4 the relevant stat if adjacent to an ally",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-490",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Oath Skill",
+    "description": "At the start of your turn, gain up to +4 the relevant stat if adjacent to an ally",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-491",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Oath Speed",
+    "description": "At the start of your turn, gain up to +4 the relevant stat if adjacent to an ally",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-492",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Oath Strength",
+    "description": "At the start of your turn, gain up to +4 the relevant stat if adjacent to an ally",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-493",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Obstruct",
+    "description": "If unit HP > 50%, foes cannot enter adjacent spaces to this unit",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-494",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Odd Footed",
+    "description": "Plus 1 move on odd numbered turns",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-495",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Odd Rhythm",
+    "description": "plus 10 Hit and Avoid on odd numbered turns.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-496",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Offhand",
+    "description": "Swap the enemy's equipped weapon after battle (if they have another one)",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-497",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Ogre Body",
+    "description": "Raise the HP cap to 99 for this unit",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-498",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Onimaru",
+    "description": "This unit always has weapon triangle advantage",
+    "category": "WTA",
+    "comments": ""
+  },
+  {
+    "id": "skill-499",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Opportunist",
+    "description": "plus 4 damage if the foe cannot counter.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-500",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Osmose",
+    "description": "Drain half the enemy's MP from them (max 50)",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-501",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Outdoor Fighter",
+    "description": "plus 10 Hit and Avo when fighting outdoors",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-502",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Outrider",
+    "description": "-1 damage taken and +3% crit per tile moved (ends on enemy phase)",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-503",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Overkill",
+    "description": "Unit is healed for surplus damage if enemy defeated",
+    "category": "In-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-504",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Override",
+    "description": "Deal damage to an entire line of adjacently connected enemy units",
+    "category": "Pre-Battle",
+    "comments": "This is going to involve invoking the targeting routines for each applicable enemy unit, and then running the required calculations on them to determine damage."
+  },
+  {
+    "id": "skill-505",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Pair Up",
+    "description": "Rescue a unit, but gain 20% of their stats as buffs",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-506",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Paragon",
+    "description": "Experience gain is doubled",
+    "category": "EXP",
+    "comments": ""
+  },
+  {
+    "id": "skill-507",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Pass",
+    "description": "Can move through enemy units",
+    "category": "Movement",
+    "comments": "Effect changed to require unit HP to be >= 25%"
+  },
+  {
+    "id": "skill-508",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Passions Flow",
+    "description": "If gaining support bonuses, this unit always doubles while attacking",
+    "category": "Doubling",
+    "comments": ""
+  },
+  {
+    "id": "skill-509",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Pastel Veil",
+    "description": "Allies in a 3 tile radius are immune to poison",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-510",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Pathfinder",
+    "description": "Allies within 3 spaces can Canto",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-511",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Pavise",
+    "description": "Nullify a physical attack. (Skill % activation)",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-512",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Peace Bringer",
+    "description": "Allies and enemies within 2 tiles deal -2 damage",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-513",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "People's Knight",
+    "description": "Unit gains +3% to all growths, per support level",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-514",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Perch",
+    "description": "Unit gains terrain bonuses even if flying",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-515",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Perfectionist",
+    "description": "plus 15 Hit/Avoid when user's HP is at maximum.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-516",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Persuade",
+    "description": "Turn a non-boss enemy unit against their faction for a turn",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-517",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Persuade+",
+    "description": "Turn a non-boss enemy unit against their faction for the duration of the map",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-518",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Petrify",
+    "description": "Inflict stone status. (Skill% activation)",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-519",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Phase Shift",
+    "description": "Unit can move through walls",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-520",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Pickup",
+    "description": "Obtain the last item in the enemy's inventory after attacking and defeating them. (Luck % activation)",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-521",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Piercegift",
+    "description": "Allows the use of Lances up to rank C",
+    "category": "Weapon Usability",
+    "comments": ""
+  },
+  {
+    "id": "skill-522",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Piercegift+",
+    "description": "Allows the use of Lances up to rank A",
+    "category": "Weapon Usability",
+    "comments": ""
+  },
+  {
+    "id": "skill-523",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Pivot",
+    "description": "Allows unit to move to the opposite side of an adjacent ally",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-524",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Plus",
+    "description": "plus 4 to all stats for adjacent units with the 'Minus' skill",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-525",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Point Blank",
+    "description": "Minimum range of equipped bows is set to 1",
+    "category": "Range",
+    "comments": ""
+  },
+  {
+    "id": "skill-526",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Poise",
+    "description": "Plus 1 Move. Negates enemy hit bonus from weapon triangle advantage",
+    "category": "WTA",
+    "comments": ""
+  },
+  {
+    "id": "skill-527",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Poison Heal",
+    "description": "Poison damage heals the unit for the same amount instead",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-528",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Poison Point",
+    "description": "Inflict the poison status to your opponent at the end of the battle",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-529",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Poison Strike",
+    "description": "Deals damage equal to 20% of the enemy's max HP after battle this unit initiates",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-530",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Position Return",
+    "description": "After battle, choose whether to return to your starting position",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-531",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Power Staff",
+    "description": "Get another action after using a staff",
+    "category": "Post-Battle",
+    "comments": "Currently this is based on a skill % activation until I work out how to make a flag that persists through its normal activation"
+  },
+  {
+    "id": "skill-532",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Practice",
+    "description": "Deal 1.5x damage and gain 1.5x EXP at the cost of 2 weapon uses",
+    "category": "Combat-Art",
+    "comments": ""
+  },
+  {
+    "id": "skill-533",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Predation",
+    "description": "This unit can absorb the first learned skill of any enemy they defeat",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-534",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Predation+",
+    "description": "This unit can choose which learned skill they absorb from a defeated enemy",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-535",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Prescience",
+    "description": "When initiating battle, Hit and Avo +15.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-536",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Prideful Warrior",
+    "description": "This unit always attacks after the enemy, but always double",
+    "category": "Doubling",
+    "comments": ""
+  },
+  {
+    "id": "skill-537",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Prodigy",
+    "description": "Allows a unit to gain over 100 EXP per battle",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-538",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Provoke",
+    "description": "Enemies are more likely to target this unit",
+    "category": "AI",
+    "comments": ""
+  },
+  {
+    "id": "skill-539",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Psych Up",
+    "description": "Copy the stat boosts of the opponent (both positive and negative)",
+    "category": "In-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-540",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Puissance",
+    "description": "Gain +3 Damage when the user's Strength is higher than the enemy's.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-541",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Pulse",
+    "description": "Gain a minimum of 10 EXP per combat, regardless of outcome",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-542",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Pursuer",
+    "description": "If initiating, AS +5, deals damage = 25% of Spd, Double attacks hit again.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-543",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Push Luck",
+    "description": "When HP is full, gain +5 to the given stat",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-544",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Push Movement",
+    "description": "When HP is full, gain +5 to the given stat",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-545",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Push Spectrum",
+    "description": "When HP is full, gain +5 to the given stat",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-546",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Push Defense",
+    "description": "When HP is full, gain +5 to the given stat",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-547",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Push Magic",
+    "description": "When HP is full, gain +5 to the given stat",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-548",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Push Resistance",
+    "description": "When HP is full, gain +5 to the given stat",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-549",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Push Skill",
+    "description": "When HP is full, gain +5 to the given stat",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-550",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Push Speed",
+    "description": "When HP is full, gain +5 to the given stat",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-551",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Push Strength",
+    "description": "When HP is full, gain +5 to the given stat",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-552",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Quick Hands",
+    "description": "Unit can use items without ending their turn",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-553",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Quick Burn",
+    "description": "Gain +15 hit and avoid. -1 each turn until turn 15",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-554",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Quick Learner",
+    "description": "When attacking a higher leveled enemy, this unit doubles",
+    "category": "Doubling",
+    "comments": ""
+  },
+  {
+    "id": "skill-555",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Quick Riposte",
+    "description": "If defending and HP is 50% or higher, unit doubles and attacker does not double",
+    "category": "Doubling",
+    "comments": ""
+  },
+  {
+    "id": "skill-556",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Rain Dish",
+    "description": "Restore 15% of the unit's HP if it is raining.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-557",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Rally Defense",
+    "description": "plus 4 to specified stat to allies within 2 tiles",
+    "category": "Rally",
+    "comments": ""
+  },
+  {
+    "id": "skill-558",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Rally Luck",
+    "description": "plus 4 to specified stat to allies within 2 tiles",
+    "category": "Rally",
+    "comments": ""
+  },
+  {
+    "id": "skill-559",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Rally Magic",
+    "description": "plus 4 to specified stat to allies within 2 tiles",
+    "category": "Rally",
+    "comments": ""
+  },
+  {
+    "id": "skill-560",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Rally Movement",
+    "description": "plus 4 to specified stat to allies within 2 tiles",
+    "category": "Rally",
+    "comments": ""
+  },
+  {
+    "id": "skill-561",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Rally Resistance",
+    "description": "plus 4 to specified stat to allies within 2 tiles",
+    "category": "Rally",
+    "comments": ""
+  },
+  {
+    "id": "skill-562",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Rally Skill",
+    "description": "plus 4 to specified stat to allies within 2 tiles",
+    "category": "Rally",
+    "comments": ""
+  },
+  {
+    "id": "skill-563",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Rally Spectrum",
+    "description": "plus 4 to all stats to allies within 2 tiles",
+    "category": "Rally",
+    "comments": ""
+  },
+  {
+    "id": "skill-564",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Rally Speed",
+    "description": "plus 4 to specified stat to allies within 2 tiles",
+    "category": "Rally",
+    "comments": ""
+  },
+  {
+    "id": "skill-565",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Rally Strength",
+    "description": "plus 4 to specified stat to allies within 2 tiles",
+    "category": "Rally",
+    "comments": ""
+  },
+  {
+    "id": "skill-566",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Ramp Up",
+    "description": "Criticals deal x2 damage, but the calculation occurs before applying enemy defenses",
+    "category": "In-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-567",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Rampage",
+    "description": "The unit operates under AI control with a focus on attacking enemies, but gains +50% ATK/SPD/SKILL",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-568",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Rampart",
+    "description": "If attacked, reduces the damage of the first hit by 30%",
+    "category": "In-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-569",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Rampart+",
+    "description": "If attacked, reduces the damage of the first hit by 50%",
+    "category": "In-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-570",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Random Mug",
+    "description": "Face changes every time it's looked at",
+    "category": "Mug Loading",
+    "comments": "This is basically identity problems so I'll consider it merged"
+  },
+  {
+    "id": "skill-571",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Rapid Fighter",
+    "description": "Always double attack on enemy phase, but not on player phase",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-572",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Re-arm",
+    "description": "Grab a weapon from stock, if the unit has no equippable items this turn",
+    "category": "Pre-Battle",
+    "comments": "Enemy only. Right now staves don't get grabbed because they don't count as 'equippables'"
+  },
+  {
+    "id": "skill-573",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Reciprocal Aid",
+    "description": "User and target ally switch their current HP totals",
+    "category": "Menu",
+    "comments": "This needed a fair number of asm accompanying files. Looking to remove them"
+  },
+  {
+    "id": "skill-574",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Reckless Fighter",
+    "description": "Both units in combat always double",
+    "category": "Doubling",
+    "comments": ""
+  },
+  {
+    "id": "skill-575",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Reflex",
+    "description": "The unit's turn doesn't end if they bump into an enemy obscured by fog",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-576",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Reinforcements",
+    "description": "The unit can summon 3 green units to assist once per map",
+    "category": "Menu",
+    "comments": "Three green cavaliers for now"
+  },
+  {
+    "id": "skill-577",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Relief",
+    "description": "Recover 20% HP each turn if there are no allies within 2 tiles.",
+    "category": "HP-Restoration",
+    "comments": ""
+  },
+  {
+    "id": "skill-578",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "ReMove",
+    "description": "Luck% chance to get another action at end of turn",
+    "category": "Post-Battle",
+    "comments": "Renamed to 'Tsuzku'"
+  },
+  {
+    "id": "skill-579",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Renewal",
+    "description": "Restore 30% of max HP at the start of each turn.",
+    "category": "HP-Restoration",
+    "comments": ""
+  },
+  {
+    "id": "skill-580",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Renewal+",
+    "description": "Restore unit to full health at the start of each turn",
+    "category": "Turn",
+    "comments": ""
+  },
+  {
+    "id": "skill-581",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Reposition",
+    "description": "Allows unit to pull an adjacent ally to its opposite side",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-582",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Resistance Boost",
+    "description": "RES +1 per turn up to a maximum of 6 turns",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-583",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Resolve",
+    "description": "When HP < 50%, gain 1.5x Str, Skl, & Spd",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-584",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Resolved Heart",
+    "description": "Once per map, this unit can pierce a foe's defenses",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-585",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Resourceful",
+    "description": "Double the effectiveness multiplier",
+    "category": "Effectiveness",
+    "comments": ""
+  },
+  {
+    "id": "skill-586",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Resurrection",
+    "description": "Revive to full health one time after being killed",
+    "category": "Standalone",
+    "comments": "Currently only works if the skill holder was attacked insteading of attacking"
+  },
+  {
+    "id": "skill-587",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Rightful Arch",
+    "description": "Sets Skill activation rate to 100%",
+    "category": "Activation Rate",
+    "comments": ""
+  },
+  {
+    "id": "skill-588",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Rightful God",
+    "description": "plus 30% to Skill activation rate",
+    "category": "Activation Rate",
+    "comments": ""
+  },
+  {
+    "id": "skill-589",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Rightful King",
+    "description": "plus 10% to Skill activation rate",
+    "category": "Activation Rate",
+    "comments": ""
+  },
+  {
+    "id": "skill-590",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Risk It All",
+    "description": "Both units have 100% crit",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-591",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Roll12",
+    "description": "Randomly apply 1 proc skill from a list of 12 once per turn",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-592",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Rouse Defense",
+    "description": "At the start of your turn, gain up to +4 the relevant stat if not adjacent to an ally",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-593",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Rouse Luck",
+    "description": "At the start of your turn, gain up to +4 the relevant stat if not adjacent to an ally",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-594",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Rouse Magic",
+    "description": "At the start of your turn, gain up to +4 the relevant stat if not adjacent to an ally",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-595",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Rouse Movement",
+    "description": "At the start of your turn, gain up to +4 the relevant stat if not adjacent to an ally",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-596",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Rouse Resistance",
+    "description": "At the start of your turn, gain up to +4 the relevant stat if not adjacent to an ally",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-597",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Rouse Skill",
+    "description": "At the start of your turn, gain up to +4 the relevant stat if not adjacent to an ally",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-598",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Rouse Speed",
+    "description": "At the start of your turn, gain up to +4 the relevant stat if not adjacent to an ally",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-599",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Rouse Strength",
+    "description": "At the start of your turn, gain up to +4 the relevant stat if not adjacent to an ally",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-600",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Ruinator",
+    "description": "This unit can step through Light Runes",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-601",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Ruined Blade",
+    "description": "STAR/MAG -5 SPD +5, real damage + 5",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-602",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Ruined Blade+",
+    "description": "SPD + 5, real damage +5, unit gains one additional attack per round, but cannot crit",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-603",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Running Start",
+    "description": "plus 1 max attack range with bows for every 2 tiles moved",
+    "category": "Range",
+    "comments": ""
+  },
+  {
+    "id": "skill-604",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Sacrifice",
+    "description": "Drains the user�s HP to restore the HP of another allied unit. It also cures status effects, with no HP cost to the user",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-605",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Saint",
+    "description": "User can target enemy units with their heal staves",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-606",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Salve",
+    "description": "Can target allied adjacent units with personal target items",
+    "category": "Standalone",
+    "comments": "The targeting is set up correctly, but the active unit is still the one to receive the item's effects for now"
+  },
+  {
+    "id": "skill-607",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Salve+",
+    "description": "Can target adjacent units with personal target items",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-608",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Sand Rush",
+    "description": "If the weather is a sandstorm then double this unit's attack speed",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-609",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Sandstream",
+    "description": "On the first turn of the map, set the weather condition to a sandstorm",
+    "category": "Turn",
+    "comments": ""
+  },
+  {
+    "id": "skill-610",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Savage Blow",
+    "description": "After attacking, enemies within 2 tiles take 20% damage",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-611",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Savior",
+    "description": "Unit can rescue without suffering skill or speed penalties",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-612",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Scavenge",
+    "description": "Unit may come across and pick up items on the battlefield until turn 10",
+    "category": "Turn",
+    "comments": ""
+  },
+  {
+    "id": "skill-613",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Scend scale",
+    "description": "Deals 25% of unit's Atk as damage. After combat, if unit attacked, takes 7 damage",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-614",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Scroll Savant",
+    "description": "Unit can learn skills from scrolls without consuming them",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-615",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Scroll Scribe",
+    "description": "The unit can generate new scrolls from their removed skills",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-616",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Scroll Scribe+",
+    "description": "The unit can turn any of their skills back into scrolls",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-617",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Seal Defense",
+    "description": "Debuff opponent's relevent stat by 6 after combat (Recover 1/turn)",
+    "category": "Debuff",
+    "comments": "Due to EMS Ram concerns the effect was changed to make the debuff perpetual"
+  },
+  {
+    "id": "skill-618",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Seal Luck",
+    "description": "Debuff opponent's relevent stat by 6 after combat (Recover 1/turn)",
+    "category": "Debuff",
+    "comments": "Due to EMS Ram concerns the effect was changed to make the debuff perpetual"
+  },
+  {
+    "id": "skill-619",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Seal Magic",
+    "description": "Debuff opponent's relevent stat by 6 after combat (Recover 1/turn)",
+    "category": "Debuff",
+    "comments": "Due to EMS Ram concerns the effect was changed to make the debuff perpetual"
+  },
+  {
+    "id": "skill-620",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Seal Resistance",
+    "description": "Debuff opponent's relevent stat by 6 after combat (Recover 1/turn)",
+    "category": "Debuff",
+    "comments": "Due to EMS Ram concerns the effect was changed to make the debuff perpetual"
+  },
+  {
+    "id": "skill-621",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Seal Skill",
+    "description": "Debuff opponent's relevent stat by 6 after combat (Recover 1/turn)",
+    "category": "Debuff",
+    "comments": "Due to EMS Ram concerns the effect was changed to make the debuff perpetual"
+  },
+  {
+    "id": "skill-622",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Seal Speed",
+    "description": "Debuff opponent's relevent stat by 6 after combat (Recover 1/turn)",
+    "category": "Debuff",
+    "comments": "Due to EMS Ram concerns the effect was changed to make the debuff perpetual"
+  },
+  {
+    "id": "skill-623",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Seal Strength",
+    "description": "Debuff opponent's relevent stat by 6 after combat (Recover 1/turn)",
+    "category": "Debuff",
+    "comments": "Due to EMS Ram concerns the effect was changed to make the debuff perpetual"
+  },
+  {
+    "id": "skill-624",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Secret",
+    "description": "Allows the unit to access the secret shop",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-625",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Seer",
+    "description": "All unit attacks hit, all enemy attacks miss",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-626",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Self Healing",
+    "description": "Unit can target itself through healing staves",
+    "category": "Standalone",
+    "comments": "Not perfect, it doubles the unit's sprite temporarily. Look into making it act like a vulnerary or elixir"
+  },
+  {
+    "id": "skill-627",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Sellsword",
+    "description": "Spend 1000 gold for +2 to all stats until the end of the map",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-628",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Shade",
+    "description": "Enemies are less likely to target this unit",
+    "category": "AI",
+    "comments": ""
+  },
+  {
+    "id": "skill-629",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Shade+",
+    "description": "Enemies will not target this unit",
+    "category": "AI",
+    "comments": ""
+  },
+  {
+    "id": "skill-630",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Shadow Flash",
+    "description": "Let unit warp anywhere in a 3 tile radius at a 10HP cost and then move again afterwards",
+    "category": "Menu",
+    "comments": "I wanted the green range tiles to display on selection as well as hover, but couldn't get it to work right now"
+  },
+  {
+    "id": "skill-631",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Shadow Step",
+    "description": "Attacking and defeating an enemy hides this unit for 1 turn",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-632",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Shadow Gift",
+    "description": "Allows the user to use dark magic up to rank C",
+    "category": "Weapon Usability",
+    "comments": ""
+  },
+  {
+    "id": "skill-633",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Shadow Gift+",
+    "description": "Allows the use of Dark Magic up to rank A",
+    "category": "Weapon Usability",
+    "comments": ""
+  },
+  {
+    "id": "skill-634",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Shed Skin",
+    "description": "Status effects only last half as long on this unit",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-635",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Short Shield",
+    "description": "Gain +6 defense against attacks received in melee.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-636",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Shotput",
+    "description": "Unit can trade with any allied unit in a 3 tile radius",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-637",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Shotput+",
+    "description": "Unit can trade with any allied unit in a 5 tile radius",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-638",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Shove",
+    "description": "Allows unit to push other units one tile away",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-639",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Shrewd Potential",
+    "description": "Stat boosters provide +1 more than usual",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-640",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Shuffle",
+    "description": "Shuffle the positions of all player units on the field. Usable once per chapter",
+    "category": "Menu",
+    "comments": "I'm shifting everyone's positions along in the deployment list rather than actually randomizing them, because the latter is difficult to do uniquely each time under every circumstance. However the effect from a user perspective mostly unnoticeable"
+  },
+  {
+    "id": "skill-641",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Shuffle+",
+    "description": "Shuffle the positions of all units on the field. Usable once per chapter",
+    "category": "Menu",
+    "comments": "I'm shifting everyone's positions along in the deployment list rather than actually randomizing them, because the latter is difficult to do uniquely each time under every circumstance. However the effect from a user perspective is mostly unnoticeable so it's all good"
+  },
+  {
+    "id": "skill-642",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Silent Pride",
+    "description": "Gain +2 damage and take -2 damage per 25% below max HP",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-643",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Skill Boost",
+    "description": "SKL +1 per turn up to a maximum of 6 turns",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-644",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Skill Swap",
+    "description": "This unit can freely trade learned skills with adjacent ally units",
+    "category": "Menu",
+    "comments": "Bugs:"
+  },
+  {
+    "id": "skill-645",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Sky Breaker",
+    "description": "Deal effective damage to flying units",
+    "category": "Effectiveness",
+    "comments": ""
+  },
+  {
+    "id": "skill-646",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Sky Guard",
+    "description": "Gain +4 DEF against enemy fliers if within 3 spaces of an ally flier",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-647",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Slayer",
+    "description": "Deal effective damage to monster units",
+    "category": "Effectiveness",
+    "comments": ""
+  },
+  {
+    "id": "skill-648",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Slow Start",
+    "description": "ATK/MAG/SPD halved until turn 6",
+    "category": "Turn",
+    "comments": ""
+  },
+  {
+    "id": "skill-649",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Slow Burn",
+    "description": "Gain +1 hit and avoid every turn for 15 turns",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-650",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Slush Rush",
+    "description": "If the weather is snowy, then double this unit's attack speed",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-651",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Smite",
+    "description": "Allows unit to push other units two tiles away",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-652",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Snow Warning",
+    "description": "On the first turn of the map, set the weather condition to snowy",
+    "category": "Turn",
+    "comments": ""
+  },
+  {
+    "id": "skill-653",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Soaring Guidance",
+    "description": "Provide +1 MOV for allies",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-654",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Soaring Wings",
+    "description": "Allies provide +1 MOV for this unit",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-655",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Social Butterfly",
+    "description": "Initiate supports at twice normal speed",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-656",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Sol",
+    "description": "Restore damage dealt as HP. (Skill % activation)",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-657",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Solar Power",
+    "description": "If the weather is sunny, magical weapons result in 25% additional damage",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-658",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Solid Rock",
+    "description": "Reduce the effectiveness damage multiplier against this unit by half",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-659",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Solidarity",
+    "description": "Critical and Critical Avoid +10 to adjacent allies",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-660",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Soul Sap",
+    "description": "At the end of your turn, drain up to 10% health from every unit within two tiles",
+    "category": "Turn",
+    "comments": "Changed to a post action skill"
+  },
+  {
+    "id": "skill-661",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Spectrum Boost",
+    "description": "All stats +1 per turn up to a maximum of 6 turns",
+    "category": "Turn",
+    "comments": ""
+  },
+  {
+    "id": "skill-662",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Speed Boost",
+    "description": "Boost movement by +1 per turn up to 6 turns",
+    "category": "Stat Modifier",
+    "comments": "Renamed 'Move Boost'"
+  },
+  {
+    "id": "skill-663",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Sprited Steps",
+    "description": "Level % chance to move again after dancing",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-664",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Spur Defense",
+    "description": "Adjacent allies gain +4 to their respective stat",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-665",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Spur Magic",
+    "description": "Adjacent allies gain +4 to their respective stat",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-666",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Spurn",
+    "description": "Reduce damage as 4% AS diff (max 40%). Damage +5 for critical atk if unit HP is less than 75%",
+    "category": "Proc",
+    "comments": "Reduce taken damage by 4% (up to 40%) for each point of speed the enemy has over the skill holder"
+  },
+  {
+    "id": "skill-667",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Spur Resistance",
+    "description": "Adjacent allies gain +4 to their respective stat",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-668",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Spur Speed",
+    "description": "Adjacent allies gain +4 to their respective stat",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-669",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Spur Strength",
+    "description": "Adjacent allies gain +4 to their respective stat",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-670",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Staff Guard",
+    "description": "Plus 5 DEF/RES when the user has an equipped staff they can use",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-671",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Staff Paragon",
+    "description": "When healing an ally, gain +1 EXP for every 5 points of excess healing",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-672",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Staff Guard",
+    "description": "When the unit has an equippable staff, +5 DEF/RES.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-673",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Staff Savant",
+    "description": "Maximum range of staves is increased by 1",
+    "category": "Range",
+    "comments": ""
+  },
+  {
+    "id": "skill-674",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Stance Alert",
+    "description": "When defending, gain +15 avoid",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-675",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Stance Alert+",
+    "description": "When defending, gain +30 avoid",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-676",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Stance Bracing",
+    "description": "When defending, gain +4 defense and resistance",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-677",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Stance Darting",
+    "description": "When defending, gain +6 attack speed",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-678",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Stance Fierce",
+    "description": "When defending, gain +6 attack",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-679",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Stance Kestrel",
+    "description": "When defending, gain +4 attack and attack speed",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-680",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Stance Mirror",
+    "description": "When defending, gain +4 attack and resistance",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-681",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Stance Ready",
+    "description": "When defending, gain +4 attack speed and defense",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-682",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Stance Spectrum",
+    "description": "When defending, gain +2 attack, attack speed, defense and resistance",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-683",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Stance Steady",
+    "description": "When defending, gain +6 defense",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-684",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Stance Sturdy",
+    "description": "When defending, gain +4 attack and defense",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-685",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Stance Swift",
+    "description": "When defending, gain +4 attack speed and resistance",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-686",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Stance Warding",
+    "description": "When defending, gain +6 resistance",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-687",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Steady Rider",
+    "description": "Unit gains DEF equal to SPD lost from weapon weight",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-688",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Steady Rider+",
+    "description": "Unit gains DEF and RES equal to SPD lost from weapon weight",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-689",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Steady Brawler",
+    "description": "This unit deals 25% less damage while doubling, but 25% more when not.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-690",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Steal",
+    "description": "Unit can steal items",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-691",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Steal+",
+    "description": "Unit can steal unequipped weapons and staves if con>weight",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-692",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "StoneBody",
+    "description": "If your CON is greater than the enemy's reduce incoming physical damage by the difference",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-693",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Storm Gift",
+    "description": "Allows the use of Anima magic up to rank C",
+    "category": "Weapon Usability",
+    "comments": ""
+  },
+  {
+    "id": "skill-694",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Storm Gift+",
+    "description": "Allows the use of Anima magic up to rank A",
+    "category": "Weapon Usability",
+    "comments": ""
+  },
+  {
+    "id": "skill-695",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Strength Boost",
+    "description": "STR +1 per turn up to a maximum of 6 turns",
+    "category": "Turn",
+    "comments": ""
+  },
+  {
+    "id": "skill-696",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Stride",
+    "description": "Increase movement of all allied units in a 3 tile radius by 3",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-697",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Strong Constitution",
+    "description": "DEF/RES + 5 while under any status condition (Includes dancer rings)",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-698",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Stunning Smile",
+    "description": "If foe is male, inflicts Avo-20 on that foe during combat.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-699",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Sturdy",
+    "description": "Skill holder survives lethal attacks in combat if they were at full HP at the start of the fight",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-700",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Summon",
+    "description": "Can conjure a phantom soldier to fight alongside you",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-701",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Summon+",
+    "description": "Allows the unit to pick from an assorted list of summons",
+    "category": "Menu",
+    "comments": "In gNewSummonConfig in Summon.c, this array will need to account for all units, right now it just accounts for Eirika"
+  },
+  {
+    "id": "skill-702",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "where the summons levels lag behind the summoner's,No,,",
+    "description": "",
+    "category": "",
+    "comments": ""
+  },
+  {
+    "id": "skill-703",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Super Luck",
+    "description": "Use luck as crit rate",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-704",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Supply",
+    "description": "This unit has access to the convoy",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-705",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Sure Shot",
+    "description": "A precision attack that always hits and does 1.5x damage. (Skill % activation)",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-706",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Survivor",
+    "description": "Permenantly gain +1 HP at the end of each map",
+    "category": "Stat Modifier",
+    "comments": ""
+  },
+  {
+    "id": "skill-707",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Swap",
+    "description": "Allows unit to swap positions with an adjacent ally",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-708",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Swarm",
+    "description": "If an adjacent target is surrounded, +50% damage.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-709",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Swarp",
+    "description": "Allows unit to swap positions with a distant ally",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-710",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Swift Attack",
+    "description": "This unit's SPD stat is used in place of ATK for damage calculation",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-711",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Swift Swim",
+    "description": "If the weather is raining then double this unit's attack speed",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-712",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Switcher",
+    "description": "Unit can choose to toggle their ability to double",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-713",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Sword Saint",
+    "description": "User gains 1-2 range with all swords",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-714",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Sword Prowess",
+    "description": "Sword Prowess: Ranks -> D/C/B/A/S",
+    "category": "",
+    "comments": ""
+  },
+  {
+    "id": "skill-715",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Synchronize",
+    "description": "Statuses are also applied to the attacker",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-716",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Synergism",
+    "description": "Allies +3 damage dealt on assistance of a combo attack",
+    "category": "Proc",
+    "comments": ""
+  },
+  {
+    "id": "skill-717",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Taker Defense",
+    "description": "After attacking and defeating an enemy, gain +1 the relevant stat (Max +10)",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-718",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Taker Luck",
+    "description": "After attacking and defeating an enemy, gain +1 the relevant stat (Max +10)",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-719",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Taker Magic",
+    "description": "After attacking and defeating an enemy, gain +1 the relevant stat (Max +10)",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-720",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Taker Movement",
+    "description": "After attacking and defeating an enemy, gain +1 the relevant stat (Max +10)",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-721",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Taker Resistance",
+    "description": "After attacking and defeating an enemy, gain +1 the relevant stat (Max +10)",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-722",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Taker Skill",
+    "description": "After attacking and defeating an enemy, gain +1 the relevant stat (Max +10)",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-723",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Taker Spectrum",
+    "description": "After attacking and defeating an enemy, gain +1 in all combat stats (Max +10)",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-724",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Taker Speed",
+    "description": "After attacking and defeating an enemy, gain +1 the relevant stat (Max +10)",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-725",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Taker Strength",
+    "description": "After attacking and defeating an enemy, gain +1 the relevant stat (Max +10)",
+    "category": "Buff",
+    "comments": ""
+  },
+  {
+    "id": "skill-726",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Tantivy",
+    "description": "plus 10 Hit/Avoid if there are no allies within 3 tiles",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-727",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Technician",
+    "description": "If the skill holder is using an E-ranked weapon, increase damage by 50% of weapon damage",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-728",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Teleportation",
+    "description": "Allow unit to teleport to a random tile on the map if their HP > 50%",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-729",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Thighdeology",
+    "description": "If a unit within 3 tiles has Nice Thighs, gain +2 Attack and +20 Hit.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-730",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Thotslayer",
+    "description": "Gain +15 crit against units with Nice Thighs.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-731",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Thunderstorm",
+    "description": "Call an AOE attack on the enemy when attacking from range",
+    "category": "Proc",
+    "comments": "3x3 AOE"
+  },
+  {
+    "id": "skill-732",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Tinted Lens",
+    "description": "Both units' attacks do a minimum of 6 damage",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-733",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Tinted Lens+",
+    "description": "This unit's attacks do a minimum of 6 damage",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-734",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Tome Range",
+    "description": "Maximum range of equipped tome is increased by 1",
+    "category": "Range",
+    "comments": "Renamed to 'B.Mag RNG+1'"
+  },
+  {
+    "id": "skill-735",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Tower Shield",
+    "description": "Gain +6 defense against attacks received at range.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-736",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Tower Shield+",
+    "description": "Take no damage against attacks received at range.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-737",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Toxic",
+    "description": "Inflicts Toxic poison on foes after battle (worsens each turn)",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-738",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Trace",
+    "description": "During Battle, copies the first skill of the enemy.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-739",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Trader",
+    "description": "Sell prices are set at 0.75x their usual amount",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-740",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Trample",
+    "description": "Gain +5 damage to unmounted units.",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-741",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Transform",
+    "description": "Turn into a selected class with +6 stat boosts across the board",
+    "category": "Menu",
+    "comments": ""
+  },
+  {
+    "id": "skill-742",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Transpose",
+    "description": "Invert enemy's AVO boosts",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-743",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Triangle Attack",
+    "description": "Allows this unit to perform a triangle attack with 2 other units who have this skill",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-744",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Triangle Adept",
+    "description": "Doubles weapon triangle effects for this unit",
+    "category": "WTA",
+    "comments": ""
+  },
+  {
+    "id": "skill-745",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Triangle Adept+",
+    "description": "Doubles weapon triangle effects",
+    "category": "WTA",
+    "comments": ""
+  },
+  {
+    "id": "skill-746",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Trick Room",
+    "description": "If this unit would be doubled, invert the doubling mechanics and vice versa",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-747",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Trip Up",
+    "description": "This unit ignores the enemy's terrain bonuses",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-748",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Triple Up",
+    "description": "Guarantee 3 stat levels ups",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-749",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Truant",
+    "description": "Unit cannot take an action every other turn",
+    "category": "Turn",
+    "comments": ""
+  },
+  {
+    "id": "skill-750",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "True Strike",
+    "description": "Targets the lower stat of the opponent's defense and resistance",
+    "category": "Pre-Battle",
+    "comments": "Renamed as 'Sorcery Blade'"
+  },
+  {
+    "id": "skill-751",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Turbo MP",
+    "description": "Double MP cost but increase damage by 66%",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-752",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Turncoat",
+    "description": "Turn a beaten enemy into an ally for a turn",
+    "category": "Post-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-753",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Twin Crests",
+    "description": "The unit can perform two actions a turn",
+    "category": "Turn",
+    "comments": ""
+  },
+  {
+    "id": "skill-754",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Unaware",
+    "description": "Ignore the stat boosts of the enemy unit in battle",
+    "category": "Pre-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-755",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Unstoppable Force",
+    "description": "Unit damage +100%, but sets unit and foe�s AVO to 0",
+    "category": "In-Battle",
+    "comments": ""
+  },
+  {
+    "id": "skill-756",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Up With Arch",
+    "description": "Adjacent ally units gain might equal to half this unit's might. (Only if name starts with \"Arch\")",
+    "category": "Aura",
+    "comments": ""
+  },
+  {
+    "id": "skill-757",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Upgrade",
+    "description": "Unit will always gain the \"+\" version of a skill if one exists",
+    "category": "Standalone",
+    "comments": ""
+  },
+  {
+    "id": "skill-758",
+    "iconName": "PlaceholderSkillIcon",
+    "name": "Vanity",
+    "description": "Gain +2 Damage and +10 Hit when fighting enemy at 2 range.",
+    "category": "Pre-Battle",
+    "comments": ""
+  }
+]
