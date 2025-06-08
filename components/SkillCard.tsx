@@ -1,7 +1,8 @@
+
 import React, { useState } from 'react';
 import { Skill } from '../types';
-import SkillIcon from './icons/SkillIcon.tsx';
-import { useTheme } from '../contexts/ThemeContext.tsx';
+import SkillIcon from './icons/SkillIcon';
+import { useTheme } from '../contexts/ThemeContext';
 
 interface SkillCardProps {
   skill: Skill;
@@ -45,7 +46,11 @@ const SkillCard: React.FC<SkillCardProps> = ({ skill, onCategoryClick }) => {
       <div> {/* Wrapper for top content (icon, name, button) */}
         <div className="flex items-start justify-between gap-3">
           <div className="flex items-start gap-3 flex-grow min-w-0"> {/* Container for icon and text block */}
-            <SkillIcon className={`mt-1 flex-shrink-0 ${theme.accentColor}`} />
+            <SkillIcon 
+              iconUrl={skill.iconUrl} 
+              altText={`${skill.name} icon`} 
+              className="mt-1 flex-shrink-0 w-8 h-8 rounded-sm" // Adjusted size for visual balance
+            />
             <div className="flex-grow min-w-0"> {/* Text block for name, category, description snippet */}
               <h3 className={`text-lg font-semibold ${theme.accentColor} truncate`}>{skill.name}</h3>
               {!isExpanded && (
@@ -79,7 +84,7 @@ const SkillCard: React.FC<SkillCardProps> = ({ skill, onCategoryClick }) => {
       </div>
       
       {isExpanded && (
-        <div id={`skill-details-${skill.id}`} className="mt-4 space-y-3 pl-1 md:pl-7">
+        <div id={`skill-details-${skill.id}`} className="mt-4 space-y-3 pl-1 md:pl-12"> {/* Adjusted pl for icon width */}
           {skill.category && (
              <div>
                 <h4 className={`text-xs font-semibold uppercase ${theme.textSecondary} mb-1`}>Category</h4>

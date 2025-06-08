@@ -55,7 +55,8 @@ export const parseSkillsFromCSV = (csvString: string, config: CsvParseConfig): S
     if (name) {
       skills.push({
         id: generateSkillId(),
-        iconName: 'PlaceholderSkillIcon', // Generic icon
+        // Use a placeholder image URL for iconUrl
+        iconUrl: `https://via.placeholder.com/48/777777/FFFFFF?Text=${name.charAt(0).toUpperCase() || 'S'}`,
         name: name,
         category: category,
         description: description,
@@ -65,4 +66,3 @@ export const parseSkillsFromCSV = (csvString: string, config: CsvParseConfig): S
   }
   return skills;
 };
-    

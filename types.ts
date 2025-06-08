@@ -1,7 +1,7 @@
 
 export interface Skill {
   id: string;
-  iconName: string; // Placeholder, could be key for specific icon component
+  iconUrl: string; // Changed from iconName to iconUrl
   name: string;
   category: string;
   description: string;
@@ -54,4 +54,3 @@ export interface CsvParseConfig {
   endRow: number; // 0-indexed, inclusive
   columns: CsvColumnConfig;
 }
-    
